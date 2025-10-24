@@ -1,47 +1,47 @@
-# COMPSYS 726 Pokémon Showdown 强化学习
+# Reinforcement Learning for Pokémon Showdown
 
-课程项目研究如何在 Pokémon Showdown 第九世代随机单打（`gen9randombattle`）中训练 DQN 智能体，并以最大伤害策略智能体（MaxDamagePlayer）为对照。报告记录的独立评估共 1,000 局，DQN 获胜 600 局，平均胜率为 **60.0%**。
+This COMPSYS 726 project trained a Deep Q-Network (DQN) agent for Generation 9 random singles battles (`gen9randombattle`). The agent won **600 of 1,000 battles (60.0%)** against a maximum-damage baseline (`MaxDamagePlayer`) in the reported evaluation.
 
-## 环境与算法
+## Environment and algorithm
 
-对战以回合推进。智能体从当前可见信息构建观测，选择招式、换人或太晶化招式，并从回合结果获得奖励。由于对手部分队伍和招式信息不可见，简化后的特征向量仍是对战状态的近似表示。
+At each turn, the agent builds an observation from visible battle information and chooses to use a move, switch Pokémon, or Terastallize while using a move. The opponent's unrevealed team members and moves make the battle partially observable.
 
-项目比较了 PPO 与 DQN 的设计思路。DQN 对离散动作输出 Q 值，报告将它作为开发起点。实验日志也保留了 Double DQN 和 Rainbow 的运行记录，以下 60.0% 胜率来自报告中的 DQN 评估。
+The project considered Proximal Policy Optimization (PPO) and chose DQN as a starting point for the discrete action space. The experiment logs also contain Double DQN and Rainbow runs. The evaluation below covers the DQN agent.
 
-## 观测设计的三轮迭代
+## Observation design
 
-| 阶段 | 特征设计 | 报告观察 |
+| Iteration | Features | Reported behavior |
 | --- | --- | --- |
-| 属性克制基线 | 12 个队伍 HP 值、双方在场宝可梦的 4 个属性值，以及 2 个威胁值 | 回放中出现规避高威胁的换人，也频繁出现不利换人和错失击倒机会 |
-| 扩展观测 | 104 维特征，加入天气、能力等级等上下文，同时放大奖励信号 | 胜率偶尔超过 50%，训练曲线缺少稳定上升趋势 |
-| 简化观测 | 保留属性克制、HP、速度差，并纳入招式克制和伤害相关信息 | 报告记录约 10 万步时胜率稳定在约 50%，后期典型训练曲线达到 60%–70% |
+| Type matchup baseline | 12 team HP values, four type values for the two active Pokémon, and two threat scores | The agent sometimes switched away from dangerous matchups, but it also made unfavorable switches and missed knockout opportunities. |
+| Expanded observations | A 104-dimensional vector with weather, stat stages, and other battle context, alongside larger rewards | Win rates occasionally exceeded 50%, with no sustained upward trend. |
+| Simplified observations | Type matchups, HP, Speed differences, move effectiveness, and damage-related features | Win rate stabilized near 50% around 100,000 steps. A later training run reached 60–70%. |
 
-属性表覆盖 18 种属性。以水系招式攻击单火系目标为例，查表得到 2 倍克制，并将其映射为归一化威胁或进攻特征。威胁特征用于描述当前对位，进攻特征为每个候选招式提供针对当前对手的克制信息。
+The type chart covers 18 types. A Water-type move against a pure Fire-type opponent yields a 2× multiplier, which can be normalized as an input feature. Threat scores describe the active matchup. Move-specific features encode how effective each candidate move is against the current opponent.
 
-## 动作与奖励
+## Actions and rewards
 
-| 智能体动作编号 | 含义 | 环境动作编号 |
+| Agent action IDs | Action | Environment action IDs |
 | --- | --- | --- |
-| 0–5 | 6 个换人槽位 | 0–5 |
-| 6–9 | 4 个普通招式槽位 | 6–9 |
-| 10–13 | 使用对应招式并太晶化 | 22–25 |
+| 0–5 | Switch to one of six team slots | 0–5 |
+| 6–9 | Use one of four move slots | 6–9 |
+| 10–13 | Terastallize and use the corresponding move | 22–25 |
 
-动作映射与随附的 `simple.txt` 草稿一致。报告描述的奖励由伤害交换、击倒和终局胜负组成，并尝试加入克制招式、低自损击倒和获胜时队伍存活等奖励。报告还记录了 3:2 的伤害权重与 `[-30, 30]` 的奖励范围。代码草稿使用了另一组奖励系数，无法据此恢复报告所用的完整训练配置。
+The action mapping matches the environment draft in `simple.txt`. The report describes rewards for damage dealt and taken, knockouts, and battle outcomes. It also records experiments with bonuses for type-effective moves, knockouts with limited damage taken, and winning with surviving teammates. The report gives a 3:2 weight ratio for damage dealt versus damage taken and a reward range of `[-30, 30]`. The draft uses different coefficients, so the exact reward configuration for the reported run remains unverified.
 
-## 训练与评估
+## Training and evaluation
 
-报告使用批大小 32，初始学习率为 0.001，并在 ε 低于 0.3 时将其下调至 0.0005。报告记录了两次探索重启，将 ε 调回 0.2，并在之后 10 万步内退火至 0.05。第一次记录在 20 万步，第二次在训练章节写为 35 万步，在讨论章节写为 30 万步。
+The report records a batch size of 32 and an initial learning rate of 0.001, reduced to 0.0005 once ε fell below 0.3. Exploration was restarted twice by resetting ε to 0.2 and decaying it to 0.05 over 100,000 steps. The first restart occurred at 200,000 steps. The training section places the second at 350,000 steps, while the discussion places it at 300,000.
 
-| 评估 | 报告结果 |
+| Evaluation | Reported result |
 | --- | --- |
-| 对最大伤害智能体，10 轮，每轮 100 局 | 各轮胜率为 55%、62%、63%、58%、60%、61%、63%、59%、58%、61% |
-| 胜率汇总 | 60.0%，轮间样本标准差为 2.54 个百分点 |
-| 属性特征消融 | 属性特征组与移除组的可视化奖励约为 +15.0 和 −5.4。两组使用相同的网络架构 |
+| Maximum-damage baseline, 10 rounds of 100 battles | Round win rates of 55%, 62%, 63%, 58%, 60%, 61%, 63%, 59%, 58%, and 61% |
+| Win-rate summary | Mean of 60.0% and sample standard deviation of 2.54 percentage points across rounds |
+| Type feature ablation | Plotted rewards stabilized near +15.0 with type features and −5.4 with those features removed. Both agents used the same network architecture. |
 
-消融结果支持属性特征在该实验设置中的价值。104 维试验同时改变了观测与奖励信号，因此现有结果无法单独估计天气、能力等级或奖励尺度的影响。简化特征也可能遗漏决定个别对局的天气或场地信息。
+The ablation supports the use of type features in this experiment. The 104-dimensional trial changed the observations and reward scale together, so its results do not isolate the effect of either change. The simplified observation can omit weather and terrain effects that matter in individual battles.
 
-## 实现线索与资料范围
+## Implementation and reproducibility
 
-实验草稿使用 Python、NumPy、`poke_env` 和 Showdown 环境封装。运行日志记录了本地 Showdown 服务，以及基于 CARES 强化学习工具的训练、恢复、绘图与测试入口。要复现实验，需要确认上游代码版本、对应的奖励实现、训练随机种子和模型检查点。
+The environment draft uses Python, NumPy, `poke_env`, and a Showdown environment wrapper. The experiment log records a local Showdown server and CARES reinforcement learning entry points for training, resuming, plotting, and evaluation. Reproducing the reported run requires the upstream code revisions, the corresponding reward implementation, training seeds, and model checkpoints.
 
-本文依据课程报告 `report.doc`、环境草稿 `simple.txt` 和运行记录 `LOG.txt` 整理。训练与消融数值来自报告。10 轮胜率的均值和样本标准差由表中的数据复算。
+This summary draws on the course report (`report.doc`), the environment draft (`simple.txt`), and the experiment log (`LOG.txt`). The training and ablation results come from the report. The mean win rate and sample standard deviation were recalculated from the ten round results.
