@@ -1,0 +1,328 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Krookodile|Krookodile, L80, M|283/283
+|switch|p2a: Ditto|Ditto, L87|100/100
+|-transform|p2a: Ditto|p1a: Krookodile|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Ditto|atk|1
+|turn|1
+|
+|move|p2a: Ditto|Gunk Shot|p1a: Krookodile|[miss]
+|-miss|p2a: Ditto|p1a: Krookodile
+|move|p1a: Krookodile|Gunk Shot|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|82/100
+|-status|p2a: Ditto|psn
+|-damage|p1a: Krookodile|255/283|[from] item: Life Orb
+|
+|-damage|p2a: Ditto|69/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|-terastallize|p1a: Krookodile|Poison
+|move|p2a: Ditto|Gunk Shot|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|221/283
+|move|p1a: Krookodile|Gunk Shot|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|40/100 psn
+|-damage|p1a: Krookodile|193/283|[from] item: Life Orb
+|
+|-damage|p2a: Ditto|28/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Ditto|Gunk Shot|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|156/283
+|move|p1a: Krookodile|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-damage|p1a: Krookodile|128/283|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Leavanny|Leavanny, L86, M|100/100
+|turn|4
+|
+|move|p2a: Leavanny|Knock Off|p1a: Krookodile
+|-damage|p1a: Krookodile|36/283
+|-enditem|p1a: Krookodile|Life Orb|[from] move: Knock Off|[of] p2a: Leavanny
+|move|p1a: Krookodile|Earthquake|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|93/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Leavanny|Knock Off|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|switch|p1a: Bastiodon|Bastiodon, L89, F|252/252
+|turn|6
+|
+|move|p2a: Leavanny|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|212/252
+|-enditem|p1a: Bastiodon|Chesto Berry|[from] move: Knock Off|[of] p2a: Leavanny
+|move|p1a: Bastiodon|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|74/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Leavanny|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|185/252
+|move|p1a: Bastiodon|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|56/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Leavanny|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|154/252
+|move|p1a: Bastiodon|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|36/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Leavanny|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|127/252
+|move|p1a: Bastiodon|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|17/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Leavanny|Knock Off|p1a: Bastiodon
+|-damage|p1a: Bastiodon|95/252
+|move|p1a: Bastiodon|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+|
+|switch|p2a: Rayquaza|Rayquaza, L72|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|11
+|
+|move|p2a: Rayquaza|Outrage|p1a: Bastiodon
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|54/252
+|move|p1a: Bastiodon|Body Press|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|81/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rayquaza|Outrage|p1a: Bastiodon|[from] lockedmove
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|17/252
+|move|p1a: Bastiodon|Body Press|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|51/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Rayquaza|Outrage|p1a: Bastiodon|[from] lockedmove
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|-start|p2a: Rayquaza|confusion|[fatigue]
+|
+|upkeep
+|
+|switch|p1a: Dedenne|Dedenne, L88, F|261/261
+|turn|14
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Rayquaza
+|-damage|p2a: Rayquaza|9/100
+|-activate|p2a: Rayquaza|confusion
+|-damage|p2a: Rayquaza|0 fnt|[from] confusion
+|faint|p2a: Rayquaza
+|
+|upkeep
+|
+|switch|p2a: Reshiram|Reshiram, L76|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|15
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|86/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|73/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|59/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|45/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|32/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|18/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|5/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Dedenne
+|-immune|p1a: Dedenne
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dedenne|Thunderbolt|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|
+|upkeep
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, L80|100/100
+|turn|23
+|
+|move|p2a: Hoopa|Focus Blast|p1a: Dedenne
+|-resisted|p1a: Dedenne
+|-damage|p1a: Dedenne|187/261
+|move|p1a: Dedenne|Super Fang|p2a: Hoopa
+|-damage|p2a: Hoopa|51/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Hoopa|Focus Blast|p1a: Dedenne|[miss]
+|-miss|p2a: Hoopa|p1a: Dedenne
+|move|p1a: Dedenne|Super Fang|p2a: Hoopa
+|-damage|p2a: Hoopa|26/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Hoopa|Focus Blast|p1a: Dedenne
+|-resisted|p1a: Dedenne
+|-damage|p1a: Dedenne|110/261
+|-enditem|p1a: Dedenne|Sitrus Berry|[eat]
+|-heal|p1a: Dedenne|175/261|[from] item: Sitrus Berry
+|-heal|p1a: Dedenne|261/261|[from] ability: Cheek Pouch
+|move|p1a: Dedenne|Thunderbolt|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|switch|p2a: Scream Tail|Scream Tail, L84|100/100
+|turn|26
+|
+|move|p2a: Scream Tail|Play Rough|p1a: Dedenne
+|-damage|p1a: Dedenne|165/261
+|move|p1a: Dedenne|Thunderbolt|p2a: Scream Tail
+|-damage|p2a: Scream Tail|77/100
+|
+|-heal|p2a: Scream Tail|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Scream Tail|Play Rough|p1a: Dedenne
+|-damage|p1a: Dedenne|80/261
+|move|p1a: Dedenne|Thunderbolt|p2a: Scream Tail
+|-damage|p2a: Scream Tail|61/100
+|
+|-heal|p2a: Scream Tail|67/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Scream Tail|Play Rough|p1a: Dedenne
+|-damage|p1a: Dedenne|0 fnt
+|faint|p1a: Dedenne
+|
+|-heal|p2a: Scream Tail|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Furret|Furret, L94, F|312/312
+|-item|p2a: Scream Tail|Leftovers|[from] ability: Frisk|[of] p1a: Furret
+|turn|29
+|
+|move|p2a: Scream Tail|Play Rough|p1a: Furret
+|-damage|p1a: Furret|239/312
+|move|p1a: Furret|Double-Edge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|29/100
+|-damage|p1a: Furret|191/312|[from] Recoil
+|-damage|p1a: Furret|160/312|[from] item: Life Orb
+|
+|-heal|p2a: Scream Tail|35/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Scream Tail|Play Rough|p1a: Furret
+|-damage|p1a: Furret|81/312
+|move|p1a: Furret|Double-Edge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|-damage|p1a: Furret|43/312|[from] Recoil
+|-damage|p1a: Furret|12/312|[from] item: Life Orb
+|

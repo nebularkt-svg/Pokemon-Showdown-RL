@@ -1,0 +1,231 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scovillain|Scovillain, L91, M|266/266
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L83, F|100/100
+|turn|1
+|
+|move|p2a: Typhlosion|Fire Blast|p1a: Scovillain
+|-damage|p1a: Scovillain|103/266
+|move|p1a: Scovillain|Fire Blast|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|73/100
+|
+|-heal|p2a: Typhlosion|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Typhlosion|Fire Blast|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-heal|p2a: Typhlosion|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, L79, M|240/240
+|turn|3
+|
+|move|p1a: Weavile|Knock Off|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-crit|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-enditem|p2a: Typhlosion|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|switch|p2a: Ho-Oh|Ho-Oh, L71|100/100
+|turn|4
+|
+|move|p1a: Weavile|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|52/100
+|-enditem|p2a: Ho-Oh|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Ho-Oh|Brave Bird|p1a: Weavile
+|-damage|p1a: Weavile|95/240
+|-damage|p2a: Ho-Oh|34/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Weavile|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|6/100
+|move|p2a: Ho-Oh|Brave Bird|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Ho-Oh|0 fnt|[from] Recoil
+|faint|p2a: Ho-Oh
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L80, F|299/299
+|switch|p2a: Indeedee|Indeedee-F, L90, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|6
+|
+|-terastallize|p1a: Conkeldurr|Normal
+|move|p2a: Indeedee|Hyper Voice|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|112/299
+|-damage|p2a: Indeedee|91/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Facade|p2a: Indeedee
+|-damage|p2a: Indeedee|50/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p2a: Indeedee|Hyper Voice|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|-damage|p2a: Indeedee|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Rampardos|Rampardos, L90, F|321/321
+|turn|8
+|
+|move|p2a: Indeedee|Hyper Voice|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|227/321
+|-damage|p2a: Indeedee|31/100|[from] item: Life Orb
+|move|p1a: Rampardos|Earthquake|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Rampardos|195/321|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, L80, F|100/100
+|turn|9
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|138/321
+|-damage|p2a: Skarmory|92/100|[from] Recoil
+|move|p1a: Rampardos|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|79/321
+|-damage|p2a: Skarmory|90/100|[from] Recoil
+|move|p1a: Rampardos|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|96/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|18/321
+|-damage|p2a: Skarmory|88/100|[from] Recoil
+|move|p1a: Rampardos|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Skarmory|Brave Bird|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|-damage|p2a: Skarmory|91/100|[from] Recoil
+|
+|-heal|p2a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales-Alola, L78, F|242/242
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|move|p1a: Ninetales|Blizzard|p2a: Skarmory
+|-damage|p2a: Skarmory|51/100
+|move|p2a: Skarmory|Brave Bird|p1a: Ninetales
+|-damage|p1a: Ninetales|163/242
+|-damage|p2a: Skarmory|40/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Skarmory|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Ninetales|Blizzard|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, L74, F|100/100
+|turn|15
+|
+|move|p1a: Ninetales|Blizzard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|switch|p2a: Dunsparce|Dunsparce, L86, M|100/100
+|turn|16
+|
+|move|p1a: Ninetales|Blizzard|p2a: Dunsparce
+|-damage|p2a: Dunsparce|75/100
+|move|p2a: Dunsparce|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|116/242
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Ninetales|Blizzard|p2a: Dunsparce
+|-damage|p2a: Dunsparce|53/100
+|move|p2a: Dunsparce|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|72/242
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|move|p1a: Ninetales|Blizzard|p2a: Dunsparce
+|-damage|p2a: Dunsparce|31/100
+|move|p2a: Dunsparce|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|
+|switch|p1a: Okidogi|Okidogi, L77, M|262/262
+|turn|19
+|
+|move|p1a: Okidogi|Psychic Fangs|p2a: Dunsparce
+|-damage|p2a: Dunsparce|16/100
+|move|p2a: Dunsparce|Earthquake|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|152/262
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Okidogi|Gunk Shot|p2a: Dunsparce
+|-damage|p2a: Dunsparce|0 fnt
+|faint|p2a: Dunsparce
+|

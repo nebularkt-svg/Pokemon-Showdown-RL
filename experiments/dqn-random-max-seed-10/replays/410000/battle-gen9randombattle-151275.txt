@@ -1,0 +1,266 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gothitelle|Gothitelle, L90, M|272/272
+|switch|p2a: Landorus|Landorus, L75, M|100/100
+|turn|1
+|
+|move|p1a: Gothitelle|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Gothitelle|p2a: Landorus
+|move|p2a: Landorus|Sludge Wave|p1a: Gothitelle
+|-damage|p1a: Gothitelle|184/272
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gothitelle|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Gothitelle|p2a: Landorus
+|move|p2a: Landorus|Sludge Wave|p1a: Gothitelle
+|-damage|p1a: Gothitelle|100/272
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Gothitelle|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Gothitelle|p2a: Landorus
+|move|p2a: Landorus|Sludge Wave|p1a: Gothitelle
+|-damage|p1a: Gothitelle|17/272
+|
+|upkeep
+|turn|4
+|
+|-terastallize|p1a: Gothitelle|Ghost
+|move|p1a: Gothitelle|Focus Blast|p2a: Landorus
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|move|p2a: Landorus|Sludge Wave|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|upkeep
+|
+|switch|p1a: Annihilape|Annihilape, L76, M|292/292
+|turn|5
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|235/292
+|move|p1a: Annihilape|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|50/100
+|-heal|p1a: Annihilape|255/292|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|193/292
+|move|p1a: Annihilape|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|34/100
+|-heal|p1a: Annihilape|214/292|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|154/292
+|move|p1a: Annihilape|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|-heal|p1a: Annihilape|176/292|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|124/292
+|move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+|-boost|p1a: Annihilape|atk|1
+|-boost|p1a: Annihilape|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Landorus|Sludge Wave|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|62/292
+|move|p1a: Annihilape|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Annihilape|83/292|[from] drain|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Slaking|Slaking, L84, F|100/100
+|turn|10
+|
+|move|p2a: Slaking|Giga Impact|p1a: Annihilape
+|-immune|p1a: Annihilape
+|move|p1a: Annihilape|Drain Punch|p2a: Slaking
+|-supereffective|p2a: Slaking
+|-damage|p2a: Slaking|49/100
+|-heal|p1a: Annihilape|183/292|[from] drain|[of] p2a: Slaking
+|
+|upkeep
+|turn|11
+|
+|cant|p2a: Slaking|ability: Truant
+|move|p1a: Annihilape|Drain Punch|p2a: Slaking
+|-supereffective|p2a: Slaking
+|-damage|p2a: Slaking|0 fnt
+|-heal|p1a: Annihilape|278/292|[from] drain|[of] p2a: Slaking
+|faint|p2a: Slaking
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, L77, F|100/100
+|turn|12
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Annihilape
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-immune|p1a: Annihilape
+|-damage|p2a: Cinderace|51/100|[from] highjumpkick
+|move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+|-boost|p1a: Annihilape|atk|1
+|-boost|p1a: Annihilape|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Annihilape
+|-immune|p1a: Annihilape
+|-damage|p2a: Cinderace|1/100|[from] highjumpkick
+|move|p1a: Annihilape|Drain Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-heal|p1a: Annihilape|279/292|[from] drain|[of] p2a: Cinderace
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, L88, M|100/100
+|turn|14
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Annihilape
+|-damage|p1a: Annihilape|209/292
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Annihilape|Rest|p1a: Annihilape
+|-status|p1a: Annihilape|slp|[from] move: Rest
+|-heal|p1a: Annihilape|292/292 slp|[silent]
+|-enditem|p1a: Annihilape|Chesto Berry|[eat]
+|-curestatus|p1a: Annihilape|slp|[msg]
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|15
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Annihilape
+|-damage|p1a: Annihilape|217/292
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Annihilape|Drain Punch|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|-heal|p1a: Annihilape|292/292|[from] drain|[of] p2a: Morpeko
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, L79, F|100/100
+|turn|16
+|
+|move|p2a: Latias|Draco Meteor|p1a: Annihilape
+|-damage|p1a: Annihilape|117/292
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Annihilape|Drain Punch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|71/100
+|-heal|p1a: Annihilape|155/292|[from] drain|[of] p2a: Latias
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Swampert|Swampert, L83, M|302/302
+|move|p2a: Latias|Draco Meteor|p1a: Swampert|[miss]
+|-miss|p2a: Latias|p1a: Swampert
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Latias|Draco Meteor|p1a: Swampert
+|-damage|p1a: Swampert|227/302
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Swampert|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|39/100
+|
+|-heal|p1a: Swampert|245/302|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Latias|Draco Meteor|p1a: Swampert
+|-damage|p1a: Swampert|194/302
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Swampert|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|4/100
+|
+|-heal|p1a: Swampert|212/302|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Latias|Draco Meteor|p1a: Swampert
+|-damage|p1a: Swampert|167/302
+|move|p1a: Swampert|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-heal|p1a: Swampert|185/302|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+|turn|21
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|79/302
+|move|p1a: Swampert|Ice Beam|p2a: Frosmoth
+|-resisted|p2a: Frosmoth
+|-damage|p2a: Frosmoth|95/100
+|
+|-heal|p1a: Swampert|97/302|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-White, L73|303/303
+|-ability|p1a: Kyurem|Turboblaze
+|turn|23
+|
+|move|p1a: Kyurem|Draco Meteor|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Frosmoth
+|

@@ -1,0 +1,230 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Blissey|Blissey, L85, F|572/572
+|switch|p2a: Tyranitar|Tyranitar, L78, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Blissey|Heal Bell||[still]
+|-activate|p1a: Blissey|move: Heal Bell
+|-fail|p1a: Blissey
+|move|p2a: Tyranitar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|316/572
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|281/572|[from] Sandstorm
+|-heal|p1a: Blissey|316/572|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Blissey|Heal Bell||[still]
+|-activate|p1a: Blissey|move: Heal Bell
+|-fail|p1a: Blissey
+|move|p2a: Tyranitar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|99/572
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|64/572|[from] Sandstorm
+|-heal|p1a: Blissey|99/572|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Blissey|Heal Bell||[still]
+|-activate|p1a: Blissey|move: Heal Bell
+|-fail|p1a: Blissey
+|move|p2a: Tyranitar|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, L87, F|367/367
+|turn|4
+|
+|move|p1a: Lapras|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|move|p2a: Tyranitar|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|291/367
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lapras|269/367|[from] Sandstorm
+|-heal|p2a: Tyranitar|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Lapras|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|move|p2a: Tyranitar|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|188/367
+|
+|-weather|none
+|-heal|p2a: Tyranitar|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Lapras|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|
+|switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|7
+|
+|move|p2a: Deoxys|Psycho Boost|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Lapras
+|-damage|p2a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro-Galar, L87, M|307/307
+|turn|8
+|
+|-terastallize|p1a: Slowbro|Psychic
+|move|p2a: Deoxys|Psycho Boost|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|243/307
+|-unboost|p2a: Deoxys|spa|2
+|-damage|p2a: Deoxys|81/100|[from] item: Life Orb
+|move|p1a: Slowbro|Psychic|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|-damage|p1a: Slowbro|213/307|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Electivire|Electivire, L84, F|100/100
+|turn|9
+|
+|move|p2a: Electivire|Supercell Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|53/307
+|-damage|p2a: Electivire|91/100|[from] item: Life Orb
+|move|p1a: Slowbro|Psychic|p2a: Electivire
+|-crit|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|-damage|p1a: Slowbro|23/307|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Bombirdier|Bombirdier, L85, M|100/100
+|turn|10
+|
+|move|p2a: Bombirdier|Brave Bird|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|-damage|p2a: Bombirdier|97/100|[from] Recoil
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, L79, M|275/275
+|turn|11
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Bombirdier
+|-crit|p2a: Bombirdier
+|-damage|p2a: Bombirdier|27/100
+|-status|p2a: Bombirdier|brn
+|move|p2a: Bombirdier|Brave Bird|p1a: Hydreigon
+|-damage|p1a: Hydreigon|197/275
+|-damage|p2a: Bombirdier|17/100 brn|[from] Recoil
+|
+|-damage|p2a: Bombirdier|11/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Bombirdier|[miss]
+|-miss|p1a: Hydreigon|p2a: Bombirdier
+|move|p2a: Bombirdier|Brave Bird|p1a: Hydreigon
+|-damage|p1a: Hydreigon|128/275
+|-damage|p2a: Bombirdier|2/100 brn|[from] Recoil
+|
+|-damage|p2a: Bombirdier|0 fnt|[from] brn
+|faint|p2a: Bombirdier
+|upkeep
+|
+|switch|p2a: Illumise|Illumise, L91, F|100/100
+|turn|13
+|
+|move|p2a: Illumise|Bug Buzz|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Plusle|Plusle, L95, F|268/268
+|turn|14
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Illumise
+|-damage|p2a: Illumise|48/100
+|-damage|p1a: Plusle|242/268|[from] item: Life Orb
+|move|p2a: Illumise|Bug Buzz|p1a: Plusle
+|-damage|p1a: Plusle|155/268
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|faint|p2a: Illumise
+|-damage|p1a: Plusle|129/268|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Iron Leaves|Iron Leaves, L80|100/100
+|turn|16
+|
+|move|p1a: Plusle|Thunderbolt|p2a: Iron Leaves
+|-resisted|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|78/100
+|-damage|p1a: Plusle|103/268|[from] item: Life Orb
+|move|p2a: Iron Leaves|Megahorn|p1a: Plusle
+|-damage|p1a: Plusle|0 fnt
+|faint|p1a: Plusle
+|
+|upkeep
+|
+|switch|p1a: Skeledirge|Skeledirge, L79, M|294/294
+|turn|17
+|
+|move|p2a: Iron Leaves|Megahorn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|261/294
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Leaves
+|-supereffective|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|23/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Iron Leaves|Megahorn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|226/294
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Leaves
+|-supereffective|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|

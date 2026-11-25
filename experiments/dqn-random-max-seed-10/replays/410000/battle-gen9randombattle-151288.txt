@@ -1,0 +1,517 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+|switch|p2a: Delphox|Delphox, L84, M|100/100
+|turn|1
+|
+|-terastallize|p1a: Mandibuzz|Steel
+|move|p2a: Delphox|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Delphox|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Roost||[still]
+|-fail|p1a: Mandibuzz|heal
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Delphox|Focus Blast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|156/326
+|move|p1a: Mandibuzz|Brave Bird|p2a: Delphox
+|-damage|p2a: Delphox|54/100
+|-damage|p1a: Mandibuzz|115/326|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Delphox|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Delphox|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Brave Bird|p2a: Delphox
+|-damage|p2a: Delphox|9/100
+|-damage|p1a: Mandibuzz|76/326|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Delphox|Focus Blast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Trevenant|Trevenant, L89, F|296/296
+|turn|5
+|
+|move|p2a: Delphox|Focus Blast|p1a: Trevenant
+|-immune|p1a: Trevenant
+|move|p1a: Trevenant|Poltergeist|p2a: Delphox
+|-activate|p2a: Delphox|move: Poltergeist|Heavy-Duty Boots
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|upkeep
+|
+|switch|p2a: Carbink|Carbink, L90|100/100
+|turn|6
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Carbink
+|-damage|p2a: Carbink|84/100
+|move|p2a: Carbink|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|224/296
+|
+|-heal|p2a: Carbink|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Carbink
+|-damage|p2a: Carbink|72/100
+|-heal|p1a: Trevenant|246/296|[from] drain|[of] p2a: Carbink
+|move|p2a: Carbink|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|174/296
+|
+|-heal|p2a: Carbink|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Carbink
+|-damage|p2a: Carbink|62/100
+|-heal|p1a: Trevenant|193/296|[from] drain|[of] p2a: Carbink
+|move|p2a: Carbink|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|124/296
+|-unboost|p1a: Trevenant|spa|1
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|198/296|[from] item: Sitrus Berry
+|
+|-heal|p2a: Carbink|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Carbink
+|-damage|p2a: Carbink|52/100
+|-heal|p1a: Trevenant|217/296|[from] drain|[of] p2a: Carbink
+|move|p2a: Carbink|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|141/296
+|-unboost|p1a: Trevenant|spa|1
+|
+|-heal|p2a: Carbink|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Carbink
+|-damage|p2a: Carbink|41/100
+|-heal|p1a: Trevenant|161/296|[from] drain|[of] p2a: Carbink
+|move|p2a: Carbink|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|83/296
+|
+|-heal|p2a: Carbink|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Moltres|Moltres, L81|278/278
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|236/278
+|
+|-heal|p2a: Carbink|53/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|35/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|195/278
+|-unboost|p1a: Moltres|spa|1
+|
+|-heal|p2a: Carbink|41/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|29/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|138/278
+|
+|-heal|p2a: Carbink|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|24/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|99/278
+|
+|-heal|p2a: Carbink|30/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|20/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|63/278
+|
+|-heal|p2a: Carbink|25/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|13/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|21/278
+|
+|-heal|p2a: Carbink|19/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Moltres|Fire Blast|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|8/100
+|move|p2a: Carbink|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-heal|p2a: Carbink|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Trevenant|Trevenant, L89, F|83/296
+|turn|18
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Carbink
+|-activate|p2a: Carbink|move: Poltergeist|Leftovers
+|-damage|p2a: Carbink|0 fnt
+|faint|p2a: Carbink
+|
+|upkeep
+|
+|switch|p2a: Arboliva|Arboliva, L91, F|100/100
+|turn|19
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Arboliva
+|-immune|p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Trevenant|Protect|p1a: Trevenant
+|-singleturn|p1a: Trevenant|Protect
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-activate|p1a: Trevenant|move: Protect
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Trevenant|Protect|p1a: Trevenant
+|-singleturn|p1a: Trevenant|Protect
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-activate|p1a: Trevenant|move: Protect
+|
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|157/296|[from] item: Sitrus Berry
+|turn|22
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|60/100
+|-heal|p1a: Trevenant|216/296|[from] drain|[of] p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Arboliva
+|-immune|p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Arboliva
+|-immune|p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|25
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Arboliva
+|-immune|p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Trevenant|Poltergeist|p2a: Arboliva
+|-immune|p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Empoleon|Empoleon, L84, M|278/278
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|214/278
+|
+|-heal|p1a: Empoleon|231/278|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Empoleon|Surf|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|44/100
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|69/100|[from] item: Sitrus Berry
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|165/278
+|
+|-heal|p1a: Empoleon|182/278|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Empoleon|Surf|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|53/100
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|122/278
+|
+|-heal|p1a: Empoleon|139/278|[from] item: Leftovers
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|30
+|
+|move|p1a: Empoleon|Surf|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|38/100
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|63/100|[from] item: Sitrus Berry
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|79/278
+|
+|-heal|p1a: Empoleon|96/278|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Empoleon|Stealth Rock|p2a: Arboliva
+|-sidestart|p2: t2_171446|move: Stealth Rock
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|36/278
+|
+|-heal|p1a: Empoleon|53/278|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Empoleon|Knock Off|p2a: Arboliva
+|-damage|p2a: Arboliva|49/100
+|move|p2a: Arboliva|Hyper Voice|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|switch|p1a: Trevenant|Trevenant, L89, F|216/296
+|turn|33
+|
+|move|p1a: Trevenant|Poltergeist||[still]
+|-fail|p1a: Trevenant
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|74/100|[from] item: Sitrus Berry
+|turn|34
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|33/100
+|-heal|p1a: Trevenant|275/296|[from] drain|[of] p2a: Arboliva
+|move|p2a: Arboliva|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|58/100|[from] item: Sitrus Berry
+|turn|35
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|17/100
+|-heal|p1a: Trevenant|296/296|[from] drain|[of] p2a: Arboliva
+|move|p2a: Arboliva|Leech Seed|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|42/100|[from] item: Sitrus Berry
+|turn|36
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|1/100
+|move|p2a: Arboliva|Leech Seed|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|26/100|[from] item: Sitrus Berry
+|turn|37
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|0 fnt
+|faint|p2a: Arboliva
+|
+|upkeep
+|
+|switch|p2a: Spidops|Spidops, L96, F|100/100
+|turn|38
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Spidops
+|-resisted|p2a: Spidops
+|-damage|p2a: Spidops|90/100
+|move|p2a: Spidops|U-turn|p1a: Trevenant
+|-damage|p1a: Trevenant|215/296
+|
+|switch|p2a: Probopass|Probopass, L92, M|100/100|[from] U-turn
+|-damage|p2a: Probopass|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|36/100
+|-heal|p1a: Trevenant|291/296|[from] drain|[of] p2a: Probopass
+|move|p2a: Probopass|Body Press|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Trevenant|Drain Punch|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|-heal|p1a: Trevenant|296/296|[from] drain|[of] p2a: Probopass
+|faint|p2a: Probopass
+|
+|upkeep
+|
+|switch|p2a: Girafarig|Girafarig, L89, M|100/100
+|-damage|p2a: Girafarig|88/100|[from] Stealth Rock
+|turn|41
+|
+|move|p2a: Girafarig|Hyper Voice|p1a: Trevenant
+|-immune|p1a: Trevenant
+|move|p1a: Trevenant|Drain Punch|p2a: Girafarig
+|-damage|p2a: Girafarig|68/100
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Pecharunt|Pecharunt, L77|262/262
+|move|p2a: Girafarig|Hyper Voice|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Girafarig|Hyper Voice|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Girafarig
+|-damage|p2a: Girafarig|42/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Girafarig|Hyper Voice|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Girafarig
+|-damage|p2a: Girafarig|15/100
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Girafarig|Hyper Voice|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Girafarig
+|-damage|p2a: Girafarig|0 fnt
+|faint|p2a: Girafarig
+|
+|upkeep
+|
+|switch|p2a: Spidops|Spidops, L96, F|90/100
+|turn|46
+|
+|move|p1a: Pecharunt|Malignant Chain|p2a: Spidops
+|-damage|p2a: Spidops|63/100
+|-status|p2a: Spidops|tox
+|-start|p2a: Spidops|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Spidops|confusion
+|move|p2a: Spidops|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|240/262
+|
+|-heal|p1a: Pecharunt|256/262|[from] item: Leftovers
+|-damage|p2a: Spidops|57/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Pecharunt|Malignant Chain|p2a: Spidops
+|-damage|p2a: Spidops|30/100 tox
+|-activate|p2a: Spidops|confusion
+|move|p2a: Spidops|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|243/262
+|
+|-heal|p1a: Pecharunt|259/262|[from] item: Leftovers
+|-damage|p2a: Spidops|19/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Pecharunt|Malignant Chain|p2a: Spidops
+|-damage|p2a: Spidops|0 fnt
+|faint|p2a: Spidops
+|

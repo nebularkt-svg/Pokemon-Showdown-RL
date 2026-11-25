@@ -1,0 +1,309 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Trevenant|Trevenant, L89, M|296/296
+|switch|p2a: Chimecho|Chimecho, L93, M|100/100
+|turn|1
+|
+|move|p2a: Chimecho|Psychic Noise|p1a: Trevenant
+|-damage|p1a: Trevenant|196/296
+|-start|p1a: Trevenant|move: Heal Block
+|move|p1a: Trevenant|Poltergeist|p2a: Chimecho
+|-activate|p2a: Chimecho|move: Poltergeist|Leftovers
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|12/100
+|
+|-heal|p2a: Chimecho|18/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Chimecho|Psychic Noise|p1a: Trevenant
+|-damage|p1a: Trevenant|96/296
+|move|p1a: Trevenant|Poltergeist|p2a: Chimecho
+|-activate|p2a: Chimecho|move: Poltergeist|Leftovers
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|0 fnt
+|faint|p2a: Chimecho
+|
+|-end|p1a: Trevenant|move: Heal Block
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|170/296|[from] item: Sitrus Berry
+|
+|switch|p2a: Drednaw|Drednaw, L81, M|100/100
+|turn|3
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Trevenant
+|-damage|p1a: Trevenant|44/296
+|move|p1a: Trevenant|Poltergeist|p2a: Drednaw
+|-activate|p2a: Drednaw|move: Poltergeist|White Herb
+|-damage|p2a: Drednaw|51/100
+|
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|118/296|[from] item: Sitrus Berry
+|turn|4
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Trevenant
+|-crit|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|faint|p1a: Trevenant
+|
+|upkeep
+|
+|switch|p1a: Arceus|Arceus-Steel, L70|284/284
+|turn|5
+|
+|move|p1a: Arceus|Earth Power|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|2/100
+|move|p2a: Drednaw|Stone Edge|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|232/284
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Arceus|Earth Power|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, L79, F|100/100
+|turn|7
+|
+|-terastallize|p1a: Arceus|Ghost
+|move|p2a: Latias|Draco Meteor|p1a: Arceus|[miss]
+|-miss|p2a: Latias|p1a: Arceus
+|move|p1a: Arceus|Judgment|p2a: Latias
+|-damage|p2a: Latias|67/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Latias|Draco Meteor|p1a: Arceus
+|-damage|p1a: Arceus|69/284
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Arceus|Earth Power|p2a: Latias
+|-immune|p2a: Latias|[from] ability: Levitate
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Latias|Draco Meteor|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Arceus
+|
+|upkeep
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L96, M|424/424
+|turn|10
+|
+|move|p2a: Latias|Draco Meteor|p1a: Wigglytuff
+|-immune|p1a: Wigglytuff
+|move|p1a: Wigglytuff|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|6/100
+|-enditem|p2a: Latias|Soul Dew|[from] move: Knock Off|[of] p1a: Wigglytuff
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Latias|Draco Meteor|p1a: Wigglytuff
+|-immune|p1a: Wigglytuff
+|move|p1a: Wigglytuff|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|switch|p2a: Kingambit|Kingambit, L74, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|12
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|90/100
+|-enditem|p2a: Kingambit|Leftovers|[from] move: Knock Off|[of] p1a: Wigglytuff
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|347/424
+|
+|-heal|p1a: Wigglytuff|373/424|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|81/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|286/424
+|
+|-heal|p1a: Wigglytuff|312/424|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Wigglytuff|Wish|p1a: Wigglytuff
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|235/424
+|
+|-heal|p1a: Wigglytuff|261/424|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|185/424
+|
+|-heal|p1a: Wigglytuff|397/424|[from] move: Wish|[wisher] Wigglytuff
+|-heal|p1a: Wigglytuff|423/424|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|65/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|346/424
+|
+|-heal|p1a: Wigglytuff|372/424|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|57/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|294/424
+|
+|-heal|p1a: Wigglytuff|320/424|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Wigglytuff|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|50/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|239/424
+|
+|-heal|p1a: Wigglytuff|265/424|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Raikou|Raikou, L81|278/278
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Raikou
+|-damage|p1a: Raikou|151/278
+|
+|-heal|p1a: Raikou|168/278|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|3/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Raikou
+|-damage|p1a: Raikou|20/278
+|
+|-heal|p1a: Raikou|37/278|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Raikou|54/278|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rampardos|Rampardos, L90, F|100/100
+|turn|22
+|
+|move|p2a: Rampardos|Head Smash|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-damage|p2a: Rampardos|92/100|[from] Recoil
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+|turn|23
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Rampardos
+|-damage|p2a: Rampardos|57/100
+|move|p2a: Rampardos|Head Smash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Rampardos|11/100|[from] Recoil
+|
+|upkeep
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L96, M|265/424
+|turn|24
+|
+|move|p2a: Rampardos|Head Smash|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|-damage|p2a: Rampardos|0 fnt|[from] Recoil
+|faint|p2a: Rampardos
+|
+|upkeep
+|
+|switch|p2a: Brambleghast|Brambleghast, L88, F|100/100
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|248/248
+|turn|25
+|
+|move|p2a: Brambleghast|Power Whip|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|173/248
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Brambleghast
+|-damage|p2a: Brambleghast|50/100
+|
+|-heal|p2a: Brambleghast|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Brambleghast|Power Whip|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|104/248
+|move|p1a: Necrozma|Earthquake|p2a: Brambleghast
+|-resisted|p2a: Brambleghast
+|-damage|p2a: Brambleghast|40/100
+|
+|-heal|p2a: Brambleghast|46/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Brambleghast|Power Whip|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|26/248
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|faint|p2a: Brambleghast
+|

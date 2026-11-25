@@ -1,0 +1,312 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos-Galar, L77|265/265
+|switch|p2a: Glalie|Glalie, L96, M|100/100
+|turn|1
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Glalie
+|-damage|p2a: Glalie|62/100
+|-damage|p1a: Zapdos|226/265|[from] Recoil
+|move|p2a: Glalie|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Glalie
+|-damage|p2a: Glalie|20/100
+|-damage|p1a: Zapdos|183/265|[from] Recoil
+|move|p2a: Glalie|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|-damage|p1a: Zapdos|163/265|[from] Recoil
+|
+|upkeep
+|
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L81, M|100/100
+|turn|4
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|66/100
+|-damage|p1a: Zapdos|134/265|[from] Recoil
+|move|p2a: Lycanroc|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|36/265
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|19/100
+|-damage|p1a: Zapdos|0 fnt|[from] Recoil
+|faint|p1a: Zapdos
+|move|p2a: Lycanroc|Close Combat|p1: Zapdos|[notarget]
+|-fail|p2a: Lycanroc
+|
+|upkeep
+|
+|switch|p1a: Quaquaval|Quaquaval, L79, M|264/264
+|turn|6
+|
+|move|p2a: Lycanroc|Close Combat|p1a: Quaquaval
+|-damage|p1a: Quaquaval|66/264
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|move|p1a: Quaquaval|Close Combat|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|faint|p2a: Lycanroc
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|-damage|p1a: Quaquaval|40/264|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Palossand|Palossand, L89, F|100/100
+|turn|7
+|
+|move|p1a: Quaquaval|Close Combat|p2a: Palossand
+|-immune|p2a: Palossand
+|move|p2a: Palossand|Sludge Bomb|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|switch|p1a: Darkrai|Darkrai, L77|234/234
+|turn|8
+|
+|-terastallize|p1a: Darkrai|Poison
+|move|p1a: Darkrai|Substitute|p1a: Darkrai
+|-start|p1a: Darkrai|Substitute
+|-damage|p1a: Darkrai|176/234
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-activate|p1a: Darkrai|move: Substitute|[damage]
+|
+|-heal|p1a: Darkrai|190/234|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|91/100
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-end|p1a: Darkrai|Substitute
+|
+|-heal|p1a: Darkrai|204/234|[from] item: Leftovers
+|-heal|p2a: Palossand|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|89/100
+|-status|p2a: Palossand|psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|166/234
+|
+|-heal|p1a: Darkrai|180/234|[from] item: Leftovers
+|-heal|p2a: Palossand|95/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|83/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|74/100 psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|143/234
+|
+|-heal|p1a: Darkrai|157/234|[from] item: Leftovers
+|-heal|p2a: Palossand|80/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|67/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|58/100 psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|121/234
+|
+|-heal|p1a: Darkrai|135/234|[from] item: Leftovers
+|-heal|p2a: Palossand|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|52/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|42/100 psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|95/234
+|
+|-heal|p1a: Darkrai|109/234|[from] item: Leftovers
+|-heal|p2a: Palossand|48/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|36/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|27/100 psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|71/234
+|
+|-heal|p1a: Darkrai|85/234|[from] item: Leftovers
+|-heal|p2a: Palossand|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|20/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|11/100 psn
+|move|p2a: Palossand|Sludge Bomb|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|43/234
+|
+|-heal|p1a: Darkrai|57/234|[from] item: Leftovers
+|-heal|p2a: Palossand|17/100 psn|[from] item: Leftovers
+|-damage|p2a: Palossand|5/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Palossand
+|-resisted|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|-heal|p1a: Darkrai|71/234|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hypno|Hypno, L95, M|100/100
+|turn|17
+|
+|move|p1a: Darkrai|Sludge Bomb|p2a: Hypno
+|-damage|p2a: Hypno|77/100
+|move|p2a: Hypno|Psychic Noise|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-heal|p2a: Hypno|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Granbull|Granbull, L88, F|302/302
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Hypno|atk|1
+|turn|18
+|
+|move|p2a: Hypno|Psychic Noise|p1a: Granbull
+|-damage|p1a: Granbull|203/302
+|-start|p1a: Granbull|move: Heal Block
+|move|p1a: Granbull|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|55/100
+|
+|-heal|p2a: Hypno|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hypno|Psychic Noise|p1a: Granbull
+|-damage|p1a: Granbull|95/302
+|move|p1a: Granbull|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|30/100
+|
+|-heal|p2a: Hypno|36/100|[from] item: Leftovers
+|-end|p1a: Granbull|move: Heal Block
+|upkeep
+|turn|20
+|
+|move|p2a: Hypno|Psychic Noise|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|-heal|p2a: Hypno|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Iron Bundle|Iron Bundle, L77|213/213
+|turn|21
+|
+|move|p1a: Iron Bundle|Hydro Pump|p2a: Hypno|[miss]
+|-miss|p1a: Iron Bundle|p2a: Hypno
+|move|p2a: Hypno|Psychic Noise|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|102/213
+|-start|p1a: Iron Bundle|move: Heal Block
+|
+|-heal|p2a: Hypno|48/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Iron Bundle|Freeze-Dry|p2a: Hypno
+|-damage|p2a: Hypno|31/100
+|move|p2a: Hypno|Psychic Noise|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|0 fnt
+|faint|p1a: Iron Bundle
+|-end|p1a: Iron Bundle|Quark Drive|[silent]
+|
+|-heal|p2a: Hypno|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scovillain|Scovillain, L91, F|266/266
+|turn|23
+|
+|move|p1a: Scovillain|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|4/100
+|move|p2a: Hypno|Psychic Noise|p1a: Scovillain
+|-crit|p1a: Scovillain
+|-damage|p1a: Scovillain|125/266
+|-start|p1a: Scovillain|move: Heal Block
+|
+|-heal|p2a: Hypno|10/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Scovillain|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|-end|p1a: Scovillain|move: Heal Block
+|upkeep
+|
+|switch|p2a: Rhydon|Rhydon, L85, F|100/100
+|turn|25
+|
+|move|p1a: Scovillain|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|76/100
+|move|p2a: Rhydon|Megahorn|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|

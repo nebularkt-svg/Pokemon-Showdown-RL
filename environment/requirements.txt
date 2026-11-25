@@ -1,0 +1,4 @@
+gymnasium==1.1.1
+numpy==1.25.2
+poke_env==0.10.0
+setuptools==79.0.0

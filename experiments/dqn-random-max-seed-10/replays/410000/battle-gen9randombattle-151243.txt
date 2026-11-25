@@ -1,0 +1,211 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|258/258
+|switch|p2a: Bronzong|Bronzong, L88|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|move|p2a: Bronzong|Body Press|p1a: Pincurchin
+|-damage|p1a: Pincurchin|203/258
+|move|p1a: Pincurchin|Discharge|p2a: Bronzong
+|-damage|p2a: Bronzong|59/100
+|
+|-heal|p1a: Pincurchin|219/258|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Bronzong|Body Press|p1a: Pincurchin
+|-damage|p1a: Pincurchin|158/258
+|move|p1a: Pincurchin|Discharge|p2a: Bronzong
+|-damage|p2a: Bronzong|17/100
+|-status|p2a: Bronzong|par
+|
+|-heal|p1a: Pincurchin|174/258|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Pincurchin|Discharge|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-heal|p1a: Pincurchin|190/258|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Luvdisc|Luvdisc, F|100/100
+|turn|4
+|
+|move|p2a: Luvdisc|Surf|p1a: Pincurchin
+|-damage|p1a: Pincurchin|123/258
+|move|p1a: Pincurchin|Scald|p2a: Luvdisc
+|-resisted|p2a: Luvdisc
+|-damage|p2a: Luvdisc|84/100
+|
+|-heal|p1a: Pincurchin|139/258|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Luvdisc|Surf|p1a: Pincurchin
+|-damage|p1a: Pincurchin|70/258
+|move|p1a: Pincurchin|Scald|p2a: Luvdisc
+|-resisted|p2a: Luvdisc
+|-damage|p2a: Luvdisc|67/100
+|
+|-heal|p1a: Pincurchin|86/258|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Luvdisc|Surf|p1a: Pincurchin
+|-crit|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|7
+|
+|move|p2a: Luvdisc|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|238/370
+|move|p1a: Ting-Lu|Earthquake|p2a: Luvdisc
+|-crit|p2a: Luvdisc
+|-damage|p2a: Luvdisc|0 fnt
+|faint|p2a: Luvdisc
+|
+|-heal|p1a: Ting-Lu|261/370|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dodrio|Dodrio, L85, M|100/100
+|turn|8
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|150/370
+|-damage|p2a: Dodrio|85/100|[from] Recoil
+|move|p1a: Ting-Lu|Earthquake|p2a: Dodrio
+|-immune|p2a: Dodrio
+|
+|-heal|p1a: Ting-Lu|173/370|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/370
+|-damage|p2a: Dodrio|70/100|[from] Recoil
+|move|p1a: Ting-Lu|Earthquake|p2a: Dodrio
+|-immune|p2a: Dodrio
+|
+|-heal|p1a: Ting-Lu|84/370|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-damage|p2a: Dodrio|58/100|[from] Recoil
+|
+|upkeep
+|
+|switch|p1a: Dunsparce|Dunsparce, L86, F|312/312
+|turn|11
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Dunsparce
+|-damage|p1a: Dunsparce|206/312
+|-damage|p2a: Dodrio|44/100|[from] Recoil
+|move|p1a: Dunsparce|Earthquake|p2a: Dodrio
+|-immune|p2a: Dodrio
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dodrio|Brave Bird|p1a: Dunsparce
+|-damage|p1a: Dunsparce|98/312
+|-damage|p2a: Dodrio|29/100|[from] Recoil
+|move|p1a: Dunsparce|Earthquake|p2a: Dodrio
+|-immune|p2a: Dodrio
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Slither Wing|Slither Wing, L81|270/270
+|move|p2a: Dodrio|Brave Bird|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|-damage|p2a: Dodrio|0 fnt|[from] Recoil
+|faint|p2a: Dodrio
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, L81, F|100/100
+|switch|p1a: Rotom|Rotom-Mow, L87|229/229
+|turn|14
+|
+|move|p2a: Gengar|Focus Blast|p1a: Rotom
+|-damage|p1a: Rotom|112/229
+|-damage|p2a: Gengar|90/100|[from] item: Life Orb
+|move|p1a: Rotom|Leaf Storm|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|50/100
+|-unboost|p1a: Rotom|spa|2
+|-start|p1a: Rotom|Disable|Leaf Storm|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|-heal|p1a: Rotom|126/229|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Gengar|Focus Blast|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Gengar|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Dunsparce|Dunsparce, L86, F|98/312
+|turn|16
+|
+|move|p2a: Gengar|Focus Blast|p1a: Dunsparce
+|-supereffective|p1a: Dunsparce
+|-damage|p1a: Dunsparce|0 fnt
+|faint|p1a: Dunsparce
+|-damage|p2a: Gengar|30/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, L77, M|262/262
+|turn|17
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, L74, M|100/100
+|turn|18
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|68/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Dragonite|Outrage|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|

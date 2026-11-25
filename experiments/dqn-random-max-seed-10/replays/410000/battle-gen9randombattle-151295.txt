@@ -1,0 +1,167 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Polteageist|Polteageist, L78|222/222
+|switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+|turn|1
+|
+|move|p2a: Roaring Moon|Outrage|p1a: Polteageist
+|-damage|p1a: Polteageist|41/222
+|-start|p2a: Roaring Moon|Disable|Outrage|[from] ability: Cursed Body|[of] p1a: Polteageist
+|move|p1a: Polteageist|Shadow Ball|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|83/100
+|
+|upkeep
+|turn|2
+|
+|-terastallize|p1a: Polteageist|Fighting
+|cant|p2a: Roaring Moon|Disable|Outrage
+|move|p1a: Polteageist|Tera Blast|p2a: Roaring Moon|[anim] Tera Blast Fighting
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|9/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Basculegion|Basculegion-F, L83, F|335/335
+|turn|4
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|249/335
+|move|p1a: Basculegion|Wave Crash|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|-damage|p1a: Basculegion|242/335|[from] Recoil
+|
+|upkeep
+|
+|switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|100/100
+|turn|5
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|47/100
+|-damage|p1a: Basculegion|181/335|[from] Recoil
+|move|p2a: Dudunsparce|Boomburst|p1a: Basculegion
+|-immune|p1a: Basculegion
+|
+|-heal|p2a: Dudunsparce|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Dudunsparce
+|-crit|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|0 fnt
+|faint|p2a: Dudunsparce
+|-damage|p1a: Basculegion|122/335|[from] Recoil
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, L80, M|100/100
+|turn|7
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Basculegion
+|-immune|p1a: Basculegion
+|move|p1a: Basculegion|Wave Crash|p2a: Hawlucha
+|-damage|p2a: Hawlucha|20/100
+|-damage|p1a: Basculegion|54/335|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Basculegion
+|-immune|p1a: Basculegion
+|move|p1a: Basculegion|Hydro Pump|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Iron Boulder|Iron Boulder, L77|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|9
+|
+|move|p2a: Iron Boulder|Close Combat|p1a: Basculegion
+|-immune|p1a: Basculegion
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|switch|p2a: Dragalge|Dragalge, L88, F|100/100
+|switch|p1a: Beartic|Beartic, L91, M|321/321
+|turn|10
+|
+|move|p1a: Beartic|Icicle Crash|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|7/100
+|cant|p2a: Dragalge|flinch
+|
+|-heal|p2a: Dragalge|14/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Beartic|Icicle Crash|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, L79, F|100/100
+|turn|12
+|
+|move|p2a: Gyarados|Earthquake|p1a: Beartic
+|-damage|p1a: Beartic|250/321
+|move|p1a: Beartic|Icicle Crash|p2a: Gyarados
+|-damage|p2a: Gyarados|41/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Earthquake|p1a: Beartic
+|-damage|p1a: Beartic|168/321
+|move|p1a: Beartic|Close Combat|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|17/100
+|-unboost|p1a: Beartic|def|1
+|-unboost|p1a: Beartic|spd|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Earthquake|p1a: Beartic
+|-damage|p1a: Beartic|52/321
+|move|p1a: Beartic|Close Combat|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-unboost|p1a: Beartic|def|1
+|-unboost|p1a: Beartic|spd|1
+|faint|p2a: Gyarados
+|

@@ -1,0 +1,302 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|switch|p2a: Delibird|Delibird, M|100/100
+|turn|1
+|
+|move|p2a: Delibird|Brave Bird|p1a: Necrozma
+|-damage|p1a: Necrozma|124/286
+|-damage|p2a: Delibird|79/100|[from] Recoil
+|move|p1a: Necrozma|Heat Wave|p2a: Delibird
+|-supereffective|p2a: Delibird
+|-damage|p2a: Delibird|0 fnt
+|faint|p2a: Delibird
+|
+|-heal|p1a: Necrozma|141/286|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+|turn|2
+|
+|-terastallize|p1a: Necrozma|Steel
+|move|p1a: Necrozma|Photon Geyser|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|16/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Necrozma
+|-immune|p1a: Necrozma
+|
+|-heal|p1a: Necrozma|158/286|[from] item: Leftovers
+|-heal|p2a: Amoonguss|22/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|286/286
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Necrozma
+|-immune|p1a: Necrozma
+|
+|-heal|p2a: Amoonguss|28/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, L83|100/100
+|turn|5
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Necrozma
+|-damage|p1a: Necrozma|156/286
+|move|p1a: Necrozma|Photon Geyser|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|
+|-heal|p2a: Rotom|61/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|173/286|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Necrozma
+|-damage|p1a: Necrozma|41/286
+|move|p1a: Necrozma|Photon Geyser|p2a: Rotom
+|-damage|p2a: Rotom|9/100
+|
+|-heal|p2a: Rotom|15/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|58/286|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Rotom|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Iron Hands|Iron Hands, L79|373/373
+|turn|8
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Iron Hands
+|-damage|p1a: Iron Hands|216/373
+|move|p1a: Iron Hands|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Iron Hands|239/373|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clodsire|Clodsire, L81, F|100/100
+|turn|9
+|
+|move|p1a: Iron Hands|Thunder Punch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|move|p2a: Clodsire|Gunk Shot|p1a: Iron Hands|[miss]
+|-miss|p2a: Clodsire|p1a: Iron Hands
+|
+|-heal|p1a: Iron Hands|262/373|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Iron Hands|Thunder Punch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|move|p2a: Clodsire|Gunk Shot|p1a: Iron Hands
+|-damage|p1a: Iron Hands|169/373
+|-status|p1a: Iron Hands|psn
+|
+|-heal|p1a: Iron Hands|192/373 psn|[from] item: Leftovers
+|-damage|p1a: Iron Hands|146/373 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Iron Hands|Thunder Punch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|move|p2a: Clodsire|Gunk Shot|p1a: Iron Hands
+|-damage|p1a: Iron Hands|58/373 psn
+|
+|-heal|p1a: Iron Hands|81/373 psn|[from] item: Leftovers
+|-damage|p1a: Iron Hands|35/373 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Iron Hands|Thunder Punch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|move|p2a: Clodsire|Gunk Shot|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, M|277/277
+|turn|13
+|
+|move|p1a: Toxicroak|Gunk Shot|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|84/100
+|-damage|p1a: Toxicroak|250/277|[from] item: Life Orb
+|move|p2a: Clodsire|Gunk Shot|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|187/277
+|
+|-heal|p2a: Clodsire|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+|move|p2a: Clodsire|Gunk Shot|p1a: Kilowattrel|[miss]
+|-miss|p2a: Clodsire|p1a: Kilowattrel
+|
+|-heal|p2a: Clodsire|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Kilowattrel|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|66/100
+|-start|p2a: Clodsire|confusion
+|-activate|p2a: Clodsire|confusion
+|move|p2a: Clodsire|Gunk Shot|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|128/252
+|-status|p1a: Kilowattrel|psn
+|
+|-heal|p2a: Clodsire|72/100|[from] item: Leftovers
+|-damage|p1a: Kilowattrel|97/252 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Kilowattrel|Discharge|p2a: Clodsire
+|-immune|p2a: Clodsire
+|-activate|p2a: Clodsire|confusion
+|-damage|p2a: Clodsire|63/100|[from] confusion
+|
+|-heal|p2a: Clodsire|69/100|[from] item: Leftovers
+|-damage|p1a: Kilowattrel|66/252 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Kilowattrel|Hurricane|p2a: Clodsire|[miss]
+|-miss|p1a: Kilowattrel|p2a: Clodsire
+|-activate|p2a: Clodsire|confusion
+|move|p2a: Clodsire|Gunk Shot|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|-heal|p2a: Clodsire|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Beartic|Beartic, L91, M|321/321
+|turn|18
+|
+|move|p1a: Beartic|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, L92, M|100/100
+|turn|19
+|
+|move|p1a: Beartic|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|85/100
+|move|p2a: Appletun|Draco Meteor|p1a: Beartic
+|-damage|p1a: Beartic|155/321
+|-unboost|p2a: Appletun|spa|2
+|
+|-heal|p2a: Appletun|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Beartic|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|78/100
+|move|p2a: Appletun|Draco Meteor|p1a: Beartic
+|-damage|p1a: Beartic|77/321
+|-unboost|p2a: Appletun|spa|2
+|
+|-heal|p2a: Appletun|84/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Beartic|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|70/100
+|move|p2a: Appletun|Draco Meteor|p1a: Beartic
+|-damage|p1a: Beartic|26/321
+|-unboost|p2a: Appletun|spa|2
+|
+|-heal|p2a: Appletun|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Beartic|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|55/100
+|move|p2a: Appletun|Draco Meteor|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-heal|p2a: Appletun|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, M|187/277
+|turn|23
+|
+|move|p1a: Toxicroak|Close Combat|p2a: Appletun
+|-damage|p2a: Appletun|16/100
+|-unboost|p1a: Toxicroak|def|1
+|-unboost|p1a: Toxicroak|spd|1
+|-damage|p1a: Toxicroak|160/277|[from] item: Life Orb
+|move|p2a: Appletun|Draco Meteor|p1a: Toxicroak
+|-damage|p1a: Toxicroak|76/277
+|
+|-heal|p2a: Appletun|22/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Toxicroak|Close Combat|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|-unboost|p1a: Toxicroak|def|1
+|-unboost|p1a: Toxicroak|spd|1
+|faint|p2a: Appletun
+|-damage|p1a: Toxicroak|49/277|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Empoleon|Empoleon, L84, M|100/100
+|turn|25
+|
+|move|p1a: Toxicroak|Earthquake|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|24/100
+|-damage|p1a: Toxicroak|22/277|[from] item: Life Orb
+|move|p2a: Empoleon|Surf|p1a: Toxicroak
+|-heal|p1a: Toxicroak|91/277|[from] ability: Dry Skin|[of] p2a: Empoleon
+|
+|-heal|p2a: Empoleon|30/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Toxicroak|Earthquake|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|-damage|p1a: Toxicroak|64/277|[from] item: Life Orb
+|

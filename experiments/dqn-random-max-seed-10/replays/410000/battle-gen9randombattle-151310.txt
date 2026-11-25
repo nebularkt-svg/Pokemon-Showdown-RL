@@ -1,0 +1,238 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Alomomola|Alomomola, L87, F|429/429
+|switch|p2a: Delibird|Delibird, M|100/100
+|turn|1
+|
+|move|p2a: Delibird|Brave Bird|p1a: Alomomola
+|-damage|p1a: Alomomola|302/429
+|-damage|p2a: Delibird|84/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Delibird|67/100|[from] Recoil
+|move|p1a: Alomomola|Scald|p2a: Delibird
+|-damage|p2a: Delibird|39/100
+|-status|p2a: Delibird|brn
+|
+|-damage|p2a: Delibird|33/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Delibird|Brave Bird|p1a: Alomomola
+|-damage|p1a: Alomomola|245/429
+|-damage|p2a: Delibird|17/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Delibird|9/100 brn|[from] Recoil
+|move|p1a: Alomomola|Scald|p2a: Delibird
+|-damage|p2a: Delibird|0 fnt
+|faint|p2a: Delibird
+|
+|upkeep
+|
+|switch|p2a: Avalugg|Avalugg, L88, F|100/100
+|turn|3
+|
+|move|p1a: Alomomola|Scald|p2a: Avalugg
+|-damage|p2a: Avalugg|77/100
+|move|p2a: Avalugg|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|128/429
+|-damage|p2a: Avalugg|60/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Meowstic|Meowstic, L89, M|277/277
+|move|p2a: Avalugg|Body Press|p1a: Meowstic
+|-resisted|p1a: Meowstic
+|-damage|p1a: Meowstic|218/277
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Meowstic|Psychic Noise|p2a: Avalugg
+|-damage|p2a: Avalugg|25/100
+|-start|p2a: Avalugg|move: Heal Block
+|move|p2a: Avalugg|Body Press|p1a: Meowstic
+|-resisted|p1a: Meowstic
+|-damage|p1a: Meowstic|164/277
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Meowstic|Psychic Noise|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, L83, M|100/100
+|turn|7
+|
+|move|p1a: Meowstic|Psychic Noise|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|32/100
+|-start|p2a: Passimian|move: Heal Block
+|move|p2a: Passimian|Gunk Shot|p1a: Meowstic
+|-damage|p1a: Meowstic|64/277
+|-status|p1a: Meowstic|psn
+|
+|-damage|p1a: Meowstic|30/277 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Meowstic|Psychic Noise|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|-damage|p1a: Meowstic|0 fnt|[from] psn
+|faint|p1a: Meowstic
+|upkeep
+|
+|switch|p1a: Glastrier|Glastrier, L86|311/311
+|switch|p2a: Zarude|Zarude, L77|100/100
+|turn|9
+|
+|move|p2a: Zarude|Power Whip|p1a: Glastrier
+|-crit|p1a: Glastrier
+|-damage|p1a: Glastrier|103/311
+|move|p1a: Glastrier|Close Combat|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|faint|p2a: Zarude
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, L78, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, L84, F|238/238
+|turn|11
+|
+|-terastallize|p1a: Whimsicott|Steel
+|move|p1a: Whimsicott|Encore|p2a: Tyranitar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tyranitar
+|move|p2a: Tyranitar|Stone Edge|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|181/238
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Whimsicott|195/238|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|62/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|139/238
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Whimsicott|153/238|[from] item: Leftovers
+|-heal|p2a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|30/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|64/238
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Whimsicott|78/238|[from] item: Leftovers
+|-heal|p2a: Tyranitar|36/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Whimsicott|Encore|p2a: Tyranitar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tyranitar
+|move|p2a: Tyranitar|Stone Edge|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|18/238
+|
+|-weather|none
+|-heal|p1a: Whimsicott|32/238|[from] item: Leftovers
+|-heal|p2a: Tyranitar|42/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-heal|p1a: Whimsicott|46/238|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Veluza|Veluza, L85, F|100/100
+|turn|16
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Veluza
+|-damage|p2a: Veluza|65/100
+|move|p2a: Veluza|Aqua Cutter|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Armarouge|Armarouge, L80, M|267/267
+|turn|17
+|
+|move|p2a: Veluza|Aqua Cutter|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-crit|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|switch|p1a: Alomomola|Alomomola, L87, F|271/429
+|turn|18
+|
+|move|p2a: Veluza|Aqua Cutter|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|134/429
+|move|p1a: Alomomola|Flip Turn|p2a: Veluza
+|-resisted|p2a: Veluza
+|-damage|p2a: Veluza|54/100
+|
+|switch|p1a: Squawkabilly|Squawkabilly-White, L89, M|291/291|[from] Flip Turn
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Squawkabilly|Brave Bird|p2a: Veluza
+|-damage|p2a: Veluza|0 fnt
+|faint|p2a: Veluza
+|-damage|p1a: Squawkabilly|240/291|[from] Recoil
+|

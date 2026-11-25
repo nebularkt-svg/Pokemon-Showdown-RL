@@ -1,0 +1,283 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+|switch|p2a: Persian|Persian-Alola, L86, M|100/100
+|turn|1
+|
+|-end|p1a: Gouging Fire|Protosynthesis|[silent]
+|switch|p1a: Dialga|Dialga, L73|266/266
+|-ability|p1a: Dialga|Pressure
+|move|p2a: Persian|Thunderbolt|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|228/266
+|-damage|p2a: Persian|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Dialga|244/266|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|208/266
+|-damage|p2a: Persian|81/100|[from] item: Life Orb
+|move|p1a: Dialga|Draco Meteor|p2a: Persian
+|-damage|p2a: Persian|9/100
+|-unboost|p1a: Dialga|spa|2
+|
+|-heal|p1a: Dialga|224/266|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Persian|Thunderbolt|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|190/266
+|-damage|p2a: Persian|0 fnt|[from] item: Life Orb
+|faint|p2a: Persian
+|move|p1a: Dialga|Draco Meteor|p2: Persian|[notarget]
+|-fail|p1a: Dialga
+|
+|-heal|p1a: Dialga|206/266|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toedscruel|Toedscruel, L87, F|100/100
+|turn|4
+|
+|move|p2a: Toedscruel|Earth Power|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|20/266
+|move|p1a: Dialga|Draco Meteor|p2a: Toedscruel
+|-damage|p2a: Toedscruel|79/100
+|-unboost|p1a: Dialga|spa|2
+|
+|-heal|p2a: Toedscruel|85/100|[from] item: Leftovers
+|-heal|p1a: Dialga|36/266|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Toedscruel|Earth Power|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|-heal|p2a: Toedscruel|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Illumise|Illumise, L91, F|266/266
+|turn|6
+|
+|move|p2a: Toedscruel|Earth Power|p1a: Illumise
+|-resisted|p1a: Illumise
+|-damage|p1a: Illumise|227/266
+|move|p1a: Illumise|Bug Buzz|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-crit|p2a: Toedscruel
+|-damage|p2a: Toedscruel|21/100
+|
+|-heal|p2a: Toedscruel|27/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Toedscruel|Earth Power|p1a: Illumise
+|-resisted|p1a: Illumise
+|-damage|p1a: Illumise|189/266
+|move|p1a: Illumise|Bug Buzz|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|0 fnt
+|faint|p2a: Toedscruel
+|
+|upkeep
+|
+|switch|p2a: Wugtrio|Wugtrio, L91, M|100/100
+|turn|8
+|
+|move|p2a: Wugtrio|Liquidation|p1a: Illumise
+|-damage|p1a: Illumise|30/266
+|-unboost|p1a: Illumise|def|1
+|move|p1a: Illumise|Bug Buzz|p2a: Wugtrio
+|-damage|p2a: Wugtrio|56/100
+|-unboost|p2a: Wugtrio|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Wugtrio|Liquidation|p1a: Illumise
+|-damage|p1a: Illumise|0 fnt
+|faint|p1a: Illumise
+|
+|upkeep
+|
+|switch|p1a: Glimmora|Glimmora, L75, F|248/248
+|turn|10
+|
+|move|p2a: Wugtrio|Liquidation|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: t2_171446|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|switch|p1a: Alomomola|Alomomola, L87, M|429/429
+|turn|11
+|
+|move|p2a: Wugtrio|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|340/429
+|-damage|p2a: Wugtrio|40/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Wugtrio
+|-resisted|p2a: Wugtrio
+|-damage|p2a: Wugtrio|20/100
+|-status|p2a: Wugtrio|brn
+|
+|-damage|p2a: Wugtrio|14/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Wugtrio|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|302/429
+|-unboost|p1a: Alomomola|def|1
+|-damage|p2a: Wugtrio|0 fnt|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|faint|p2a: Wugtrio
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|
+|switch|p2a: Froslass|Froslass, L87, F|100/100
+|-status|p2a: Froslass|psn
+|turn|13
+|
+|move|p2a: Froslass|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Alomomola|149/429
+|move|p1a: Alomomola|Scald|p2a: Froslass
+|-damage|p2a: Froslass|81/100 psn
+|-start|p1a: Alomomola|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Froslass
+|
+|-heal|p1a: Alomomola|363/429|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Froslass|69/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Froslass|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Alomomola|195/429
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Froslass|57/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Froslass|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Alomomola|33/429
+|move|p1a: Alomomola|Wish||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|247/429|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Froslass|45/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Froslass|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Alomomola|67/429
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Froslass|32/100 psn|[from] psn
+|-end|p1a: Alomomola|Disable
+|upkeep
+|turn|17
+|
+|move|p2a: Froslass|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-damage|p2a: Froslass|20/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+|turn|18
+|
+|move|p2a: Froslass|Poltergeist|p1a: Gouging Fire
+|-activate|p1a: Gouging Fire|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Gouging Fire|187/277
+|move|p1a: Gouging Fire|Outrage|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Gouging Fire|Disable|Outrage|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, L88, F|100/100
+|turn|19
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Gouging Fire
+|-resisted|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|129/277
+|-boost|p2a: Morpeko|spe|1
+|cant|p1a: Gouging Fire|Disable|Outrage
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|20
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|12/277
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Gouging Fire|Heat Crash|p2a: Morpeko
+|-damage|p2a: Morpeko|43/100
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|21
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Gouging Fire
+|-resisted|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Gouging Fire
+|-end|p1a: Gouging Fire|Protosynthesis|[silent]
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, L82, M|397/397
+|turn|22
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Snorlax
+|-damage|p1a: Snorlax|223/397
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Snorlax|Earthquake|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|-heal|p1a: Snorlax|247/397|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, L81, M|100/100
+|-status|p2a: Barraskewda|psn
+|turn|23
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Snorlax
+|

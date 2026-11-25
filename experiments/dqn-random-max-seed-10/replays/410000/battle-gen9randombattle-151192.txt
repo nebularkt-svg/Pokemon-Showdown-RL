@@ -1,0 +1,364 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Thundurus|Thundurus, L80, M|258/258
+|switch|p2a: Galvantula|Galvantula, L82, M|100/100
+|turn|1
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|71/100
+|move|p2a: Galvantula|Thunder|p1a: Thundurus
+|-damage|p1a: Thundurus|129/258
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Thunder|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|switch|p1a: Magearna|Magearna-Original, L77|250/250
+|turn|3
+|
+|move|p2a: Galvantula|Thunder|p1a: Magearna
+|-damage|p1a: Magearna|147/250
+|move|p1a: Magearna|Fleur Cannon|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Galvantula
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|162/250|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dedenne|Dedenne, L88, M|100/100
+|turn|4
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|87/250
+|move|p1a: Magearna|Flash Cannon|p2a: Dedenne
+|-damage|p2a: Dedenne|76/100
+|
+|-heal|p1a: Magearna|102/250|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|20/250
+|move|p1a: Magearna|Flash Cannon|p2a: Dedenne
+|-damage|p2a: Dedenne|48/100
+|-enditem|p2a: Dedenne|Sitrus Berry|[eat]
+|-heal|p2a: Dedenne|73/100|[from] item: Sitrus Berry
+|-heal|p2a: Dedenne|100/100|[from] ability: Cheek Pouch
+|
+|-heal|p1a: Magearna|35/250|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, L86, F|252/252
+|turn|7
+|
+|-terastallize|p1a: Weezing|Steel
+|move|p2a: Dedenne|Thunderbolt|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|98/252
+|move|p1a: Weezing|Gunk Shot|p2a: Dedenne|[miss]
+|-miss|p1a: Weezing|p2a: Dedenne
+|
+|-heal|p1a: Weezing|113/252|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|14/252
+|move|p1a: Weezing|Fire Blast|p2a: Dedenne|[miss]
+|-miss|p1a: Weezing|p2a: Dedenne
+|
+|-heal|p1a: Weezing|29/252|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Annihilape|Annihilape, L76, M|292/292
+|turn|10
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Annihilape
+|-crit|p1a: Annihilape
+|-damage|p1a: Annihilape|144/292
+|move|p1a: Annihilape|Drain Punch|p2a: Dedenne
+|-resisted|p2a: Dedenne
+|-damage|p2a: Dedenne|81/100
+|-heal|p1a: Annihilape|170/292|[from] drain|[of] p2a: Dedenne
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Annihilape
+|-damage|p1a: Annihilape|71/292
+|move|p1a: Annihilape|Drain Punch|p2a: Dedenne
+|-resisted|p2a: Dedenne
+|-damage|p2a: Dedenne|62/100
+|-heal|p1a: Annihilape|96/292|[from] drain|[of] p2a: Dedenne
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|upkeep
+|
+|switch|p1a: Ariados|Ariados, L95, M|287/287
+|turn|13
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Ariados
+|-damage|p1a: Ariados|185/287
+|move|p1a: Ariados|Megahorn|p2a: Dedenne|[miss]
+|-miss|p1a: Ariados|p2a: Dedenne
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Ariados
+|-damage|p1a: Ariados|86/287
+|move|p1a: Ariados|Megahorn|p2a: Dedenne
+|-resisted|p2a: Dedenne
+|-damage|p2a: Dedenne|22/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Ariados
+|-damage|p1a: Ariados|0 fnt
+|faint|p1a: Ariados
+|
+|upkeep
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L84|221/221
+|-ability|p1a: Deoxys|Pressure
+|turn|16
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|160/221
+|move|p1a: Deoxys|Stored Power|p2a: Dedenne
+|-damage|p2a: Dedenne|15/100
+|
+|-heal|p1a: Deoxys|173/221|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|112/221
+|move|p1a: Deoxys|Stored Power|p2a: Dedenne
+|-damage|p2a: Dedenne|8/100
+|
+|-heal|p1a: Deoxys|125/221|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|71/221
+|move|p1a: Deoxys|Stored Power|p2a: Dedenne
+|-damage|p2a: Dedenne|1/100
+|
+|-heal|p1a: Deoxys|84/221|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|29/221
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|140/221
+|
+|-heal|p1a: Deoxys|153/221|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Dedenne|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|93/221
+|move|p1a: Deoxys|Stored Power|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|-heal|p1a: Deoxys|106/221|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Regice|Regice, L88|100/100
+|turn|21
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|97/100
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|36/221
+|
+|-heal|p1a: Deoxys|49/221|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|160/221
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|90/221
+|
+|-heal|p1a: Deoxys|103/221|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|94/100
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|34/221
+|
+|-heal|p1a: Deoxys|47/221|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|158/221
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|86/221
+|
+|-heal|p1a: Deoxys|99/221|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|91/100
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-crit|p1a: Deoxys
+|-damage|p1a: Deoxys|2/221
+|
+|-heal|p1a: Deoxys|15/221|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|126/221
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|63/221
+|
+|-heal|p1a: Deoxys|76/221|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|87/100
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|6/221
+|
+|-heal|p1a: Deoxys|19/221|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|130/221
+|move|p2a: Regice|Ice Beam|p1a: Deoxys
+|-damage|p1a: Deoxys|58/221
+|
+|-heal|p1a: Deoxys|71/221|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|84/100
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|26/221
+|
+|-heal|p1a: Deoxys|39/221|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|150/221
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|102/221
+|
+|-heal|p1a: Deoxys|115/221|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|81/100
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|66/221
+|
+|-heal|p1a: Deoxys|79/221|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|78/100
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|38/221
+|
+|-heal|p1a: Deoxys|51/221|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|162/221
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|114/221
+|
+|-heal|p1a: Deoxys|127/221|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|74/100
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|83/221
+|
+|-heal|p1a: Deoxys|96/221|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Deoxys|Stored Power|p2a: Regice
+|-damage|p2a: Regice|71/100
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|54/221
+|-status|p1a: Deoxys|par
+|
+|-heal|p1a: Deoxys|67/221 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|25/221 par
+|cant|p1a: Deoxys|par
+|
+|-heal|p1a: Deoxys|38/221 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Regice|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|

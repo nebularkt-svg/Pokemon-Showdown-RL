@@ -2,6 +2,8 @@
 
 This COMPSYS 726 project trained a Deep Q-Network (DQN) agent for Generation 9 random singles battles (`gen9randombattle`). The agent won **600 of 1,000 battles (60.0%)** against a maximum-damage baseline (`MaxDamagePlayer`) in the reported evaluation.
 
+The [DQN training archive](experiments/dqn-random-max-seed-10/README.md) includes the environment source, seed-10 configuration, episode data, plots, saved weights, and battle traces.
+
 ## Environment and algorithm
 
 At each turn, the agent builds an observation from visible battle information and chooses to use a move, switch Pokémon, or Terastallize while using a move. The opponent's unrevealed team members and moves make the battle partially observable.

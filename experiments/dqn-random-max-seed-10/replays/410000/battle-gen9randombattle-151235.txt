@@ -1,0 +1,242 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Braviary|Braviary-Hisui, L85, M|326/326
+|switch|p2a: Pecharunt|Pecharunt, L77|100/100
+|turn|1
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Braviary
+|-damage|p1a: Braviary|229/326
+|move|p1a: Braviary|Hurricane|p2a: Pecharunt
+|-damage|p2a: Pecharunt|48/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Braviary
+|-damage|p1a: Braviary|129/326
+|-status|p1a: Braviary|tox
+|-start|p1a: Braviary|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Braviary|confusion
+|move|p1a: Braviary|Hurricane|p2a: Pecharunt|[miss]
+|-miss|p1a: Braviary|p2a: Pecharunt
+|
+|-damage|p1a: Braviary|109/326 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Braviary
+|-damage|p1a: Braviary|15/326 tox
+|-activate|p1a: Braviary|confusion
+|-damage|p1a: Braviary|0 fnt|[from] confusion
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|switch|p1a: Carbink|Carbink, L90|236/236
+|turn|4
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Carbink
+|-damage|p1a: Carbink|182/236
+|move|p1a: Carbink|Moonblast|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|32/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Carbink
+|-damage|p1a: Carbink|136/236
+|move|p1a: Carbink|Moonblast|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|18/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Carbink
+|-damage|p1a: Carbink|84/236
+|-status|p1a: Carbink|tox
+|-start|p1a: Carbink|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Carbink|confusion
+|-damage|p1a: Carbink|76/236 tox|[from] confusion
+|
+|-damage|p1a: Carbink|62/236 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Carbink
+|-damage|p1a: Carbink|8/236 tox
+|-activate|p1a: Carbink|confusion
+|-damage|p1a: Carbink|0 fnt|[from] confusion
+|faint|p1a: Carbink
+|
+|upkeep
+|
+|switch|p1a: Iron Thorns|Iron Thorns, L83|302/302
+|-enditem|p1a: Iron Thorns|Booster Energy
+|-activate|p1a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Thorns|quarkdriveatk
+|turn|8
+|
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|257/302
+|move|p1a: Iron Thorns|Stone Edge|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, L87|100/100
+|-transform|p2a: Ditto|p1a: Iron Thorns|[from] ability: Imposter
+|turn|9
+|
+|move|p2a: Ditto|Stone Edge|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|130/302
+|move|p1a: Iron Thorns|Stone Edge|p2a: Ditto
+|-damage|p2a: Ditto|39/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Ditto|Stone Edge|p1a: Iron Thorns|[miss]
+|-miss|p2a: Ditto|p1a: Iron Thorns
+|move|p1a: Iron Thorns|Stone Edge|p2a: Ditto|[miss]
+|-miss|p1a: Iron Thorns|p2a: Ditto
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Ditto|Stone Edge|p1a: Iron Thorns|[miss]
+|-miss|p2a: Ditto|p1a: Iron Thorns
+|move|p1a: Iron Thorns|Stone Edge|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-end|p2a: Ditto|Quark Drive|[silent]
+|
+|upkeep
+|
+|switch|p2a: Armarouge|Armarouge, L80, F|100/100
+|turn|12
+|
+|-terastallize|p1a: Iron Thorns|Rock
+|move|p1a: Iron Thorns|Wild Charge|p2a: Armarouge
+|-damage|p2a: Armarouge|41/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-damage|p1a: Iron Thorns|90/302|[from] Recoil
+|move|p2a: Armarouge|Armor Cannon|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|10/302
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|switch|p1a: Smeargle|Smeargle, L95, F|258/258
+|turn|14
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Smeargle
+|-damage|p1a: Smeargle|53/258
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Smeargle|Power Trip|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|19/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|switch|p1a: Staraptor|Staraptor, L79, F|263/263
+|turn|16
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Staraptor
+|-damage|p1a: Staraptor|49/263
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Staraptor|Brave Bird|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|-damage|p1a: Staraptor|33/263|[from] Recoil
+|
+|upkeep
+|
+|switch|p2a: Leafeon|Leafeon, L88, F|100/100
+|turn|17
+|
+|move|p2a: Leafeon|Double-Edge|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|-damage|p2a: Leafeon|96/100|[from] Recoil
+|-damage|p2a: Leafeon|87/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Eelektross|Eelektross, L87, F|290/290
+|turn|18
+|
+|move|p2a: Leafeon|Double-Edge|p1a: Eelektross
+|-damage|p1a: Eelektross|146/290
+|-damage|p2a: Leafeon|68/100|[from] Recoil
+|-damage|p2a: Leafeon|58/100|[from] item: Life Orb
+|move|p1a: Eelektross|Discharge|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|35/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Leafeon|Double-Edge|p1a: Eelektross
+|-damage|p1a: Eelektross|3/290
+|-damage|p2a: Leafeon|17/100|[from] Recoil
+|-damage|p2a: Leafeon|7/100|[from] item: Life Orb
+|move|p1a: Eelektross|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|
+|switch|p2a: Serperior|Serperior, L79, M|100/100
+|turn|20
+|
+|move|p2a: Serperior|Leaf Storm|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Eelektross
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|

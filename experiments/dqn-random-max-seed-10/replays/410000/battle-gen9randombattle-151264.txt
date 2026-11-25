@@ -1,0 +1,428 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pawmot|Pawmot, L80, M|243/243
+|switch|p2a: Iron Treads|Iron Treads, L77|100/100
+|turn|1
+|
+|switch|p1a: Bellossom|Bellossom, L84, M|263/263
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|220/263
+|
+|-heal|p1a: Bellossom|236/263|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|185/263
+|move|p1a: Bellossom|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|91/100
+|
+|-heal|p1a: Bellossom|201/263|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|158/263
+|move|p1a: Bellossom|Giga Drain|p2a: Iron Treads
+|-damage|p2a: Iron Treads|66/100
+|-heal|p1a: Bellossom|191/263|[from] drain|[of] p2a: Iron Treads
+|
+|-heal|p1a: Bellossom|207/263|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|161/263
+|move|p1a: Bellossom|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|56/100
+|-unboost|p2a: Iron Treads|spa|1
+|
+|-heal|p1a: Bellossom|177/263|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|130/263
+|move|p1a: Bellossom|Giga Drain|p2a: Iron Treads
+|-damage|p2a: Iron Treads|34/100
+|-heal|p1a: Bellossom|160/263|[from] drain|[of] p2a: Iron Treads
+|
+|-heal|p1a: Bellossom|176/263|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|128/263
+|move|p1a: Bellossom|Giga Drain|p2a: Iron Treads
+|-damage|p2a: Iron Treads|11/100
+|-heal|p1a: Bellossom|159/263|[from] drain|[of] p2a: Iron Treads
+|
+|-heal|p1a: Bellossom|175/263|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|131/263
+|move|p1a: Bellossom|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Bellossom|147/263|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Volbeat|Volbeat, L90, M|100/100
+|turn|8
+|
+|move|p2a: Volbeat|U-turn|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|9/263
+|
+|switch|p2a: Mabosstiff|Mabosstiff, L86, M|100/100|[from] U-turn
+|move|p1a: Bellossom|Giga Drain|p2a: Mabosstiff
+|-damage|p2a: Mabosstiff|69/100
+|-heal|p1a: Bellossom|53/263|[from] drain|[of] p2a: Mabosstiff
+|
+|-heal|p1a: Bellossom|69/263|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Mabosstiff|Wild Charge|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-crit|p1a: Bellossom
+|-damage|p1a: Bellossom|13/263
+|-damage|p2a: Mabosstiff|64/100|[from] Recoil
+|move|p1a: Bellossom|Giga Drain|p2a: Mabosstiff
+|-damage|p2a: Mabosstiff|31/100
+|-heal|p1a: Bellossom|59/263|[from] drain|[of] p2a: Mabosstiff
+|
+|-heal|p1a: Bellossom|75/263|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Mabosstiff|Wild Charge|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|37/263
+|-damage|p2a: Mabosstiff|27/100|[from] Recoil
+|move|p1a: Bellossom|Moonblast|p2a: Mabosstiff
+|-supereffective|p2a: Mabosstiff
+|-damage|p2a: Mabosstiff|0 fnt
+|faint|p2a: Mabosstiff
+|
+|-heal|p1a: Bellossom|53/263|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gothitelle|Gothitelle, L90, M|100/100
+|turn|11
+|
+|move|p2a: Gothitelle|Focus Blast|p1a: Bellossom|[miss]
+|-miss|p2a: Gothitelle|p1a: Bellossom
+|move|p1a: Bellossom|Moonblast|p2a: Gothitelle
+|-damage|p2a: Gothitelle|82/100
+|
+|-heal|p1a: Bellossom|69/263|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gothitelle|Focus Blast|p1a: Bellossom
+|-damage|p1a: Bellossom|0 fnt
+|faint|p1a: Bellossom
+|
+|upkeep
+|
+|switch|p1a: Gliscor|Gliscor, L76, M|239/239
+|turn|13
+|
+|-terastallize|p1a: Gliscor|Water
+|move|p2a: Gothitelle|Focus Blast|p1a: Gliscor|[miss]
+|-miss|p2a: Gothitelle|p1a: Gliscor
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|180/239
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|move|p2a: Gothitelle|Focus Blast|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Earthquake|p2a: Gothitelle
+|-damage|p2a: Gothitelle|54/100
+|
+|-heal|p1a: Gliscor|209/239 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p2a: Gothitelle|Focus Blast|p1a: Gliscor
+|-damage|p1a: Gliscor|91/239 tox
+|move|p1a: Gliscor|Earthquake|p2a: Gothitelle
+|-damage|p2a: Gothitelle|25/100
+|
+|-heal|p1a: Gliscor|120/239 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|move|p2a: Gothitelle|Focus Blast|p1a: Gliscor
+|-damage|p1a: Gliscor|2/239 tox
+|move|p1a: Gliscor|Earthquake|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-heal|p1a: Gliscor|31/239 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Volbeat|Volbeat, L90, M|100/100
+|turn|17
+|
+|move|p2a: Volbeat|U-turn|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|switch|p2a: Raging Bolt|Raging Bolt, L78|100/100|[from] U-turn
+|
+|upkeep
+|
+|switch|p1a: Primarina|Primarina, L83, M|268/268
+|turn|18
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt|[miss]
+|-miss|p1a: Primarina|p2a: Raging Bolt
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|77/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|53/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt|[miss]
+|-miss|p1a: Primarina|p2a: Raging Bolt
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt|[miss]
+|-miss|p1a: Primarina|p2a: Raging Bolt
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|switch|p2a: Kingambit|Kingambit, L74, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|26
+|
+|-activate|p1a: Primarina|move: Struggle
+|move|p1a: Primarina|Struggle|p2a: Kingambit
+|-damage|p2a: Kingambit|91/100
+|-damage|p1a: Primarina|201/268|[from] recoil
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|127/268
+|
+|-heal|p2a: Kingambit|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|-activate|p1a: Primarina|move: Struggle
+|move|p1a: Primarina|Struggle|p2a: Kingambit
+|-damage|p2a: Kingambit|87/100
+|-damage|p1a: Primarina|60/268|[from] recoil
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, L88, M|274/274
+|turn|28
+|
+|move|p1a: Eiscue|Ice Spinner|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|79/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|274/274
+|detailschange|p1a: Eiscue|Eiscue-Noice, L88, M
+|
+|-heal|p2a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Eiscue|Ice Spinner|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eiscue
+|-damage|p1a: Eiscue|139/274
+|
+|-heal|p2a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Eiscue|Ice Spinner|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|66/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eiscue
+|-damage|p1a: Eiscue|1/274
+|-enditem|p1a: Eiscue|Sitrus Berry|[eat]
+|-heal|p1a: Eiscue|69/274|[from] item: Sitrus Berry
+|
+|-heal|p2a: Kingambit|72/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Eiscue|Ice Spinner|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|59/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|-heal|p2a: Kingambit|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Maushold|Maushold, L76|238/238
+|turn|32
+|
+|move|p1a: Maushold|Bite|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Maushold
+|-damage|p1a: Maushold|61/238
+|
+|-heal|p2a: Kingambit|64/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Maushold|Bite|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|57/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|-heal|p2a: Kingambit|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Pawmot|Pawmot, L80, M|243/243
+|turn|34
+|
+|move|p1a: Pawmot|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Pawmot|def|1
+|-unboost|p1a: Pawmot|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|switch|p2a: Volbeat|Volbeat, L90, M|100/100
+|turn|35
+|
+|move|p1a: Pawmot|Close Combat|p2a: Volbeat
+|-resisted|p2a: Volbeat
+|-damage|p2a: Volbeat|72/100
+|-unboost|p1a: Pawmot|def|1
+|-unboost|p1a: Pawmot|spd|1
+|move|p2a: Volbeat|U-turn|p1a: Pawmot
+|-resisted|p1a: Pawmot
+|-damage|p1a: Pawmot|160/243
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Pawmot|Close Combat|p2a: Volbeat
+|-resisted|p2a: Volbeat
+|-damage|p2a: Volbeat|46/100
+|-unboost|p1a: Pawmot|def|1
+|-unboost|p1a: Pawmot|spd|1
+|move|p2a: Volbeat|U-turn|p1a: Pawmot
+|-resisted|p1a: Pawmot
+|-damage|p1a: Pawmot|49/243
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Pawmot|Close Combat|p2a: Volbeat
+|-resisted|p2a: Volbeat
+|-damage|p2a: Volbeat|17/100
+|-unboost|p1a: Pawmot|def|1
+|-unboost|p1a: Pawmot|spd|1
+|move|p2a: Volbeat|U-turn|p1a: Pawmot
+|-resisted|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|

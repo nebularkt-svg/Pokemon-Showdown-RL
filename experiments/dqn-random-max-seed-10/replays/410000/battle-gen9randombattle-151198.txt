@@ -1,0 +1,242 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bellibolt|Bellibolt, L84, M|320/320
+|switch|p2a: Cresselia|Cresselia, L80, F|100/100
+|turn|1
+|
+|move|p2a: Cresselia|Moonblast|p1a: Bellibolt
+|-damage|p1a: Bellibolt|269/320
+|-start|p1a: Bellibolt|Charge|Moonblast|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Thunderbolt|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|30/100
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p2a: Cresselia|36/100|[from] item: Leftovers
+|-heal|p1a: Bellibolt|289/320|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Cresselia|Moonblast|p1a: Bellibolt
+|-damage|p1a: Bellibolt|232/320
+|-start|p1a: Bellibolt|Charge|Moonblast|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Thunderbolt|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p1a: Bellibolt|252/320|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Abomasnow|Abomasnow, L84, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|3
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Bellibolt
+|-damage|p1a: Bellibolt|143/320
+|-status|p1a: Bellibolt|frz
+|-start|p1a: Bellibolt|Charge|Blizzard|[from] ability: Electromorphosis
+|cant|p1a: Bellibolt|frz
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|163/320 frz|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Bellibolt
+|-damage|p1a: Bellibolt|45/320 frz
+|-start|p1a: Bellibolt|Charge|Blizzard|[from] ability: Electromorphosis
+|cant|p1a: Bellibolt|frz
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|65/320 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Abomasnow|Blizzard|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|faint|p1a: Bellibolt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|switch|p1a: Grumpig|Grumpig, L92, F|297/297
+|turn|6
+|
+|move|p1a: Grumpig|Focus Blast|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|switch|p2a: Jumpluff|Jumpluff, L87, M|100/100
+|turn|7
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Grumpig
+|-damage|p1a: Grumpig|209/297
+|move|p1a: Grumpig|Focus Blast|p2a: Jumpluff|[miss]
+|-miss|p1a: Grumpig|p2a: Jumpluff
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Grumpig
+|-damage|p1a: Grumpig|119/297
+|move|p1a: Grumpig|Focus Blast|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|79/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Grumpig
+|-damage|p1a: Grumpig|31/297
+|move|p1a: Grumpig|Focus Blast|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|54/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Grumpig
+|-damage|p1a: Grumpig|0 fnt
+|faint|p1a: Grumpig
+|
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|turn|11
+|
+|move|p2a: Jumpluff|Acrobatics|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|225/268
+|move|p1a: Zapdos|Hurricane|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|upkeep
+|
+|switch|p2a: Typhlosion|Typhlosion, L84, F|100/100
+|turn|12
+|
+|move|p2a: Typhlosion|Eruption|p1a: Zapdos
+|-damage|p1a: Zapdos|56/268
+|move|p1a: Zapdos|Hurricane|p2a: Typhlosion
+|-damage|p2a: Typhlosion|56/100
+|-start|p2a: Typhlosion|confusion
+|
+|upkeep
+|turn|13
+|
+|-activate|p2a: Typhlosion|confusion
+|move|p2a: Typhlosion|Eruption|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|switch|p1a: Metagross|Metagross, L79|256/256
+|turn|14
+|
+|-activate|p2a: Typhlosion|confusion
+|move|p2a: Typhlosion|Eruption|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|68/256
+|-enditem|p1a: Metagross|Weakness Policy
+|-boost|p1a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Metagross|spa|2|[from] item: Weakness Policy
+|move|p1a: Metagross|Earthquake|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|switch|p2a: Mewtwo|Mewtwo, L72|100/100
+|-ability|p2a: Mewtwo|Unnerve
+|turn|15
+|
+|move|p2a: Mewtwo|Psystrike|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|38/256
+|-damage|p2a: Mewtwo|91/100|[from] item: Life Orb
+|move|p1a: Metagross|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|27/100
+|
+|upkeep
+|turn|16
+|
+|-terastallize|p1a: Metagross|Ground
+|move|p2a: Mewtwo|Psystrike|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|-damage|p2a: Mewtwo|17/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Scrafty|Scrafty, L84, F|246/246
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Mewtwo|atk|1
+|turn|17
+|
+|move|p2a: Mewtwo|Psystrike|p1a: Scrafty
+|-immune|p1a: Scrafty
+|move|p1a: Scrafty|Knock Off|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|-enditem|p2a: Mewtwo|Life Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Mewtwo
+|-damage|p1a: Scrafty|222/246|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Electivire|Electivire, L84, F|100/100
+|turn|18
+|
+|move|p2a: Electivire|Supercell Slam|p1a: Scrafty
+|-damage|p1a: Scrafty|93/246
+|-damage|p2a: Electivire|91/100|[from] item: Life Orb
+|move|p1a: Scrafty|Poison Jab|p2a: Electivire
+|-damage|p2a: Electivire|59/100
+|-status|p2a: Electivire|psn
+|-damage|p1a: Scrafty|69/246|[from] item: Life Orb
+|
+|-damage|p2a: Electivire|47/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Electivire|Supercell Slam|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|-damage|p2a: Electivire|37/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Electivire|25/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Noctowl|Noctowl, L95, M|344/344
+|turn|20
+|
+|move|p2a: Electivire|Supercell Slam|p1a: Noctowl
+|-supereffective|p1a: Noctowl
+|-damage|p1a: Noctowl|0 fnt
+|faint|p1a: Noctowl
+|-damage|p2a: Electivire|15/100 psn|[from] item: Life Orb
+|

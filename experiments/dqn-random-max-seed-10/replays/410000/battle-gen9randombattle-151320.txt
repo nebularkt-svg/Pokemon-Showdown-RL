@@ -1,0 +1,274 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Suicune|Suicune, L82|298/298
+|switch|p2a: Copperajah|Copperajah, L86, M|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|
+|move|p1a: Suicune|Scald|p2a: Copperajah
+|-damage|p2a: Copperajah|75/100
+|move|p2a: Copperajah|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|203/298
+|-damage|p2a: Copperajah|65/100|[from] item: Life Orb
+|
+|-heal|p1a: Suicune|221/298|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Suicune|Scald|p2a: Copperajah
+|-damage|p2a: Copperajah|38/100
+|move|p2a: Copperajah|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|114/298
+|-damage|p2a: Copperajah|28/100|[from] item: Life Orb
+|
+|-heal|p1a: Suicune|132/298|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Suicune|Scald|p2a: Copperajah
+|-damage|p2a: Copperajah|3/100
+|-status|p2a: Copperajah|brn
+|move|p2a: Copperajah|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|77/298
+|-damage|p2a: Copperajah|0 fnt|[from] item: Life Orb
+|faint|p2a: Copperajah
+|
+|-heal|p1a: Suicune|95/298|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, L79, M|100/100
+|turn|4
+|
+|move|p2a: Arcanine|Head Smash|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, L78, M|253/253
+|turn|5
+|
+|-terastallize|p1a: Latios|Steel
+|move|p1a: Latios|Recover||[still]
+|-fail|p1a: Latios|heal
+|move|p2a: Arcanine|Head Smash|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|163/253
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Latios|Draco Meteor|p2a: Arcanine
+|-damage|p2a: Arcanine|25/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Arcanine|Head Smash|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|67/253
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Latios|Draco Meteor|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, L92, M|100/100
+|turn|8
+|
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|194/253
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|119/253
+|-unboost|p2a: Appletun|spa|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Latios|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|66/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|80/253
+|-unboost|p2a: Appletun|spa|2
+|
+|-heal|p2a: Appletun|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Latios|Draco Meteor|p2a: Appletun|[miss]
+|-miss|p1a: Latios|p2a: Appletun
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|54/253
+|-unboost|p2a: Appletun|spa|2
+|
+|-heal|p2a: Appletun|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Latios|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|54/100
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|36/253
+|
+|-heal|p2a: Appletun|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Latios|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|34/100
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|18/253
+|
+|-heal|p2a: Appletun|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Latios|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|14/100
+|move|p2a: Appletun|Draco Meteor|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Appletun|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|14
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Appletun
+|-sidestart|p2: t2_171446|move: Stealth Rock
+|move|p2a: Appletun|Draco Meteor|p1a: Hippowdon
+|-damage|p1a: Hippowdon|263/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Appletun|14/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|282/311|[from] item: Leftovers
+|-heal|p2a: Appletun|20/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|5/100
+|move|p2a: Appletun|Draco Meteor|p1a: Hippowdon
+|-damage|p1a: Hippowdon|231/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Appletun|0 fnt|[from] Sandstorm
+|faint|p2a: Appletun
+|-heal|p1a: Hippowdon|250/311|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Azumarill|Azumarill, L82, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Azumarill|Superpower|p1a: Hippowdon
+|-damage|p1a: Hippowdon|136/311
+|-unboost|p2a: Azumarill|atk|1
+|-unboost|p2a: Azumarill|def|1
+|move|p1a: Hippowdon|Earthquake|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|155/311|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Wo-Chien|Wo-Chien, L83|100/100
+|-damage|p2a: Wo-Chien|88/100|[from] Stealth Rock
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|17
+|
+|move|p2a: Wo-Chien|Giga Drain|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-heal|p2a: Wo-Chien|100/100|[from] drain|[of] p1a: Hippowdon
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wo-Chien|94/100|[from] Sandstorm
+|-heal|p2a: Wo-Chien|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Noctowl|Noctowl, L95, F|344/344
+|turn|18
+|
+|move|p1a: Noctowl|Hyper Voice|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|57/100
+|move|p2a: Wo-Chien|Giga Drain|p1a: Noctowl
+|-resisted|p1a: Noctowl
+|-damage|p1a: Noctowl|311/344
+|-heal|p2a: Wo-Chien|63/100|[from] drain|[of] p1a: Noctowl
+|
+|-weather|none
+|-heal|p2a: Wo-Chien|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Noctowl|Hurricane|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|2/100
+|move|p2a: Wo-Chien|Giga Drain|p1a: Noctowl
+|-resisted|p1a: Noctowl
+|-damage|p1a: Noctowl|281/344
+|-heal|p2a: Wo-Chien|7/100|[from] drain|[of] p1a: Noctowl
+|
+|-heal|p2a: Wo-Chien|13/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Noctowl|Hyper Voice|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|faint|p2a: Wo-Chien
+|
+|upkeep
+|
+|switch|p2a: Slither Wing|Slither Wing, L81|100/100
+|-damage|p2a: Slither Wing|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Noctowl|Hyper Voice|p2a: Slither Wing
+|-damage|p2a: Slither Wing|49/100
+|move|p2a: Slither Wing|Close Combat|p1a: Noctowl
+|-damage|p1a: Noctowl|16/344
+|-unboost|p2a: Slither Wing|def|1
+|-unboost|p2a: Slither Wing|spd|1
+|-damage|p2a: Slither Wing|39/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Noctowl|Hyper Voice|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|

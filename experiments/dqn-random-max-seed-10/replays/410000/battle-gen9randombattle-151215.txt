@@ -1,0 +1,638 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bronzong|Bronzong, L88|261/261
+|switch|p2a: Politoed|Politoed, L88, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|move|p2a: Politoed|Focus Blast|p1a: Bronzong
+|-damage|p1a: Bronzong|157/261
+|move|p1a: Bronzong|Psychic Noise|p2a: Politoed
+|-damage|p2a: Politoed|79/100
+|-start|p2a: Politoed|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Politoed|Focus Blast|p1a: Bronzong
+|-damage|p1a: Bronzong|61/261
+|move|p1a: Bronzong|Psychic Noise|p2a: Politoed
+|-damage|p2a: Politoed|58/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Politoed|move: Heal Block
+|upkeep
+|turn|3
+|
+|move|p2a: Politoed|Focus Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Politoed|p1a: Bronzong
+|move|p1a: Bronzong|Psychic Noise|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|25/100
+|-start|p2a: Politoed|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Politoed|Focus Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Politoed|p1a: Bronzong
+|move|p1a: Bronzong|Psychic Noise|p2a: Politoed
+|-damage|p2a: Politoed|4/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Politoed|move: Heal Block
+|upkeep
+|turn|5
+|
+|move|p2a: Politoed|Focus Blast|p1a: Bronzong|[miss]
+|-miss|p2a: Politoed|p1a: Bronzong
+|move|p1a: Bronzong|Psychic Noise|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Landorus|Landorus, L75, M|100/100
+|turn|6
+|
+|-terastallize|p1a: Bronzong|Fighting
+|move|p2a: Landorus|Focus Blast|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Mismagius|Mismagius, L86, F|243/243
+|turn|7
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Focus Blast|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Rock Slide|p1a: Mismagius
+|-damage|p1a: Mismagius|135/243
+|
+|upkeep
+|turn|31
+|
+|-activate|p1a: Mismagius|move: Struggle
+|move|p1a: Mismagius|Struggle|p2a: Landorus
+|-damage|p2a: Landorus|93/100
+|-damage|p1a: Mismagius|74/243|[from] recoil
+|move|p2a: Landorus|Rock Slide|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|266/266
+|turn|32
+|
+|move|p2a: Landorus|Rock Slide|p1a: Vileplume|[miss]
+|-miss|p2a: Landorus|p1a: Vileplume
+|move|p1a: Vileplume|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|50/100
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Landorus|Rock Slide|p1a: Vileplume
+|-damage|p1a: Vileplume|176/266
+|move|p1a: Vileplume|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|-heal|p1a: Vileplume|233/266|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Vileplume|249/266|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Terrakion|Terrakion, L79|273/273
+|move|p2a: Landorus|Rock Slide|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|225/273
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Terrakion|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Landorus
+|-damage|p1a: Terrakion|198/273|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L68|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|36
+|
+|move|p1a: Terrakion|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|171/273|[from] item: Life Orb
+|move|p2a: Zamazenta|Stone Edge|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|114/273
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Terrakion|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Zamazenta
+|-damage|p1a: Terrakion|87/273|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Oinkologne|Oinkologne-F, L92, F|100/100
+|turn|38
+|
+|move|p1a: Terrakion|Close Combat|p2a: Oinkologne
+|-supereffective|p2a: Oinkologne
+|-damage|p2a: Oinkologne|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Oinkologne
+|-damage|p1a: Terrakion|60/273|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Skuntank|Skuntank, L84, M|100/100
+|turn|39
+|
+|move|p1a: Terrakion|Close Combat|p2a: Skuntank
+|-damage|p2a: Skuntank|35/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-damage|p1a: Terrakion|33/273|[from] item: Life Orb
+|move|p2a: Skuntank|Gunk Shot|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|-damage|p2a: Skuntank|25/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, L85, M|249/266
+|turn|40
+|
+|move|p2a: Skuntank|Gunk Shot|p1a: Vileplume
+|-damage|p1a: Vileplume|89/266
+|-damage|p2a: Skuntank|15/100|[from] item: Life Orb
+|move|p1a: Vileplume|Strength Sap|p2a: Skuntank
+|-unboost|p2a: Skuntank|atk|1
+|-heal|p1a: Vileplume|266/266
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Skuntank|Gunk Shot|p1a: Vileplume
+|-damage|p1a: Vileplume|167/266
+|-damage|p2a: Skuntank|5/100|[from] item: Life Orb
+|move|p1a: Vileplume|Strength Sap|p2a: Skuntank
+|-unboost|p2a: Skuntank|atk|1
+|-heal|p1a: Vileplume|266/266
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Skuntank|Gunk Shot|p1a: Vileplume|[miss]
+|-miss|p2a: Skuntank|p1a: Vileplume
+|move|p1a: Vileplume|Leech Seed|p2a: Skuntank
+|-start|p2a: Skuntank|move: Leech Seed
+|
+|-damage|p2a: Skuntank|0 fnt|[from] Leech Seed|[of] p1a: Vileplume
+|faint|p2a: Skuntank
+|upkeep
+|
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L76, F|100/100
+|turn|43
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|229/266
+|move|p1a: Vileplume|Giga Drain|p2a: Ogerpon
+|-damage|p2a: Ogerpon|65/100
+|-heal|p1a: Vileplume|266/266|[from] drain|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume|[miss]
+|-miss|p2a: Ogerpon|p1a: Vileplume
+|move|p1a: Vileplume|Strength Sap|p2a: Ogerpon
+|-unboost|p2a: Ogerpon|atk|1
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume|[miss]
+|-miss|p2a: Ogerpon|p1a: Vileplume
+|move|p1a: Vileplume|Strength Sap|p2a: Ogerpon
+|-unboost|p2a: Ogerpon|atk|1
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|248/266
+|move|p1a: Vileplume|Strength Sap|p2a: Ogerpon
+|-unboost|p2a: Ogerpon|atk|1
+|-heal|p1a: Vileplume|266/266
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|252/266
+|move|p1a: Vileplume|Strength Sap|p2a: Ogerpon
+|-unboost|p2a: Ogerpon|atk|1
+|-heal|p1a: Vileplume|266/266
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|253/266
+|move|p1a: Vileplume|Strength Sap|p2a: Ogerpon
+|-unboost|p2a: Ogerpon|atk|1
+|-heal|p1a: Vileplume|266/266
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|256/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|256/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|256/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|255/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume|[miss]
+|-miss|p2a: Ogerpon|p1a: Vileplume
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|256/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|255/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|254/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume|[miss]
+|-miss|p2a: Ogerpon|p1a: Vileplume
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Ogerpon|Power Whip|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|255/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|266/266|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|246/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|262/266|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|244/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|260/266|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|241/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|257/266|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|238/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|254/266|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|236/266
+|move|p1a: Vileplume|Leech Seed|p2a: Ogerpon
+|-immune|p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|252/266|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|165/266
+|move|p1a: Vileplume|Giga Drain|p2a: Ogerpon
+|-damage|p2a: Ogerpon|27/100
+|-heal|p1a: Vileplume|212/266|[from] drain|[of] p2a: Ogerpon
+|
+|-heal|p1a: Vileplume|228/266|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Vileplume|[anim] Ivy Cudgel Water
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|211/266
+|move|p1a: Vileplume|Giga Drain|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: Vileplume|244/266|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|

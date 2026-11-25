@@ -1,0 +1,312 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound, L80|259/259
+|switch|p2a: Lokix|Lokix, L82, M|100/100
+|turn|1
+|
+|-terastallize|p1a: Hoopa|Poison
+|move|p2a: Lokix|First Impression|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|115/259
+|move|p1a: Hoopa|Gunk Shot|p2a: Lokix|[miss]
+|-miss|p1a: Hoopa|p2a: Lokix
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Lokix|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Lokix
+|move|p1a: Hoopa|Focus Blast|p2a: Lokix|[miss]
+|-miss|p1a: Hoopa|p2a: Lokix
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Lokix|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Lokix
+|move|p1a: Hoopa|Focus Blast|p2a: Lokix|[miss]
+|-miss|p1a: Hoopa|p2a: Lokix
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Lokix|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Lokix
+|move|p1a: Hoopa|Focus Blast|p2a: Lokix
+|-damage|p2a: Lokix|34/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Lokix|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Lokix
+|move|p1a: Hoopa|Focus Blast|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, L79, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|6
+|
+|move|p1a: Hoopa|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|16/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Hoopa|[miss]
+|-miss|p2a: Heatran|p1a: Hoopa
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hoopa|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Hoopa|p2a: Heatran
+|move|p2a: Heatran|Magma Storm|p1a: Hoopa
+|-damage|p1a: Hoopa|49/259
+|-activate|p1a: Hoopa|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Hoopa|17/259|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|move|p1a: Hoopa|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Hoopa|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p2a: Donphan|Donphan, L84, M|100/100
+|turn|9
+|
+|move|p1a: Hoopa|Focus Blast|p2a: Donphan|[miss]
+|-miss|p1a: Hoopa|p2a: Donphan
+|move|p2a: Donphan|Earthquake|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+|turn|10
+|
+|move|p1a: Gouging Fire|Outrage|p2a: Donphan
+|-damage|p2a: Donphan|72/100
+|move|p2a: Donphan|Earthquake|p1a: Gouging Fire
+|-supereffective|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|73/277
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Gouging Fire|Outrage|p2a: Donphan|[from] lockedmove
+|-damage|p2a: Donphan|40/100
+|move|p2a: Donphan|Earthquake|p1a: Gouging Fire
+|-supereffective|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|0 fnt
+|faint|p1a: Gouging Fire
+|-end|p1a: Gouging Fire|Protosynthesis|[silent]
+|
+|upkeep
+|
+|switch|p1a: Veluza|Veluza, L85, F|292/292
+|turn|12
+|
+|move|p1a: Veluza|Aqua Cutter|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|switch|p2a: Okidogi|Okidogi, L77, M|100/100
+|turn|13
+|
+|move|p1a: Veluza|Aqua Cutter|p2a: Okidogi
+|-crit|p2a: Okidogi
+|-damage|p2a: Okidogi|11/100
+|move|p2a: Okidogi|Gunk Shot|p1a: Veluza|[miss]
+|-miss|p2a: Okidogi|p1a: Veluza
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Okidogi|Gunk Shot|p1a: Veluza
+|-damage|p1a: Veluza|151/292
+|move|p1a: Veluza|Aqua Cutter|p2a: Okidogi
+|-damage|p2a: Okidogi|0 fnt
+|faint|p2a: Okidogi
+|
+|upkeep
+|
+|switch|p2a: Scovillain|Scovillain, L91, M|100/100
+|turn|15
+|
+|move|p2a: Scovillain|Fire Blast|p1a: Veluza
+|-resisted|p1a: Veluza
+|-damage|p1a: Veluza|55/292
+|move|p1a: Veluza|Aqua Cutter|p2a: Scovillain
+|-damage|p2a: Scovillain|26/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Scovillain|Fire Blast|p1a: Veluza|[miss]
+|-miss|p2a: Scovillain|p1a: Veluza
+|move|p1a: Veluza|Aqua Cutter|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|upkeep
+|
+|switch|p2a: Eternatus|Eternatus, L69|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|17
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Veluza
+|-damage|p1a: Veluza|0 fnt
+|faint|p1a: Veluza
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales-Alola, L78, F|242/242
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|18
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Moonblast|p2a: Eternatus
+|-damage|p2a: Eternatus|71/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|0
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|0
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Ninetales
+|-immune|p1a: Ninetales
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|0
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|122/242
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|0
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|12/242
+|move|p1a: Ninetales|Blizzard|p2a: Eternatus|[miss]
+|-miss|p1a: Ninetales|p2a: Eternatus
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|
+|switch|p1a: Minior|Minior-Violet, L79|224/224
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|28
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Minior
+|-resisted|p1a: Minior
+|-damage|p1a: Minior|197/224
+|move|p1a: Minior|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|37/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Minior
+|-resisted|p1a: Minior
+|-damage|p1a: Minior|170/224
+|move|p1a: Minior|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|2/100
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Minior
+|-resisted|p1a: Minior
+|-damage|p1a: Minior|139/224
+|move|p1a: Minior|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|

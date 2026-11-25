@@ -1,0 +1,238 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Incineroar|Incineroar, L82, F|290/290
+|switch|p2a: Revavroom|Revavroom, L79, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Revavroom|atk|1
+|turn|1
+|
+|move|p2a: Revavroom|Gunk Shot|p1a: Incineroar
+|-damage|p1a: Incineroar|181/290
+|-damage|p2a: Revavroom|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2a: Revavroom
+|-supereffective|p2a: Revavroom
+|-damage|p2a: Revavroom|13/100
+|-damage|p1a: Incineroar|115/290|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Revavroom|Gunk Shot|p1a: Incineroar
+|-damage|p1a: Incineroar|8/290
+|-status|p1a: Incineroar|psn
+|-damage|p2a: Revavroom|3/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2a: Revavroom
+|-supereffective|p2a: Revavroom
+|-damage|p2a: Revavroom|0 fnt
+|faint|p2a: Revavroom
+|-damage|p1a: Incineroar|6/290 psn|[from] Recoil
+|
+|-damage|p1a: Incineroar|0 fnt|[from] psn
+|faint|p1a: Incineroar
+|upkeep
+|
+|switch|p2a: Misdreavus|Misdreavus, L90, F|100/100
+|switch|p1a: Granbull|Granbull, L88, F|302/302
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Misdreavus|atk|1
+|turn|3
+|
+|move|p2a: Misdreavus|Shadow Ball|p1a: Granbull
+|-damage|p1a: Granbull|182/302
+|move|p1a: Granbull|Earthquake|p2a: Misdreavus
+|-immune|p2a: Misdreavus|[from] ability: Levitate
+|
+|-heal|p1a: Granbull|200/302|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Misdreavus|Shadow Ball|p1a: Granbull
+|-damage|p1a: Granbull|97/302
+|-unboost|p1a: Granbull|spd|1
+|move|p1a: Granbull|Earthquake|p2a: Misdreavus
+|-immune|p2a: Misdreavus|[from] ability: Levitate
+|
+|-heal|p1a: Granbull|115/302|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Misdreavus|Shadow Ball|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+|
+|switch|p1a: Talonflame|Talonflame, L83, F|265/265
+|turn|6
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Misdreavus
+|-damage|p2a: Misdreavus|65/100
+|-damage|p1a: Talonflame|235/265|[from] Recoil
+|move|p2a: Misdreavus|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|118/265
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Talonflame|Flare Blitz|p2a: Misdreavus
+|-damage|p2a: Misdreavus|26/100
+|-damage|p1a: Talonflame|85/265|[from] Recoil
+|move|p2a: Misdreavus|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+|turn|8
+|
+|move|p1a: Jumpluff|U-turn|p2a: Misdreavus
+|-resisted|p2a: Misdreavus
+|-damage|p2a: Misdreavus|19/100
+|
+|switch|p1a: Drednaw|Drednaw, L81, M|278/278|[from] U-turn
+|move|p2a: Misdreavus|Shadow Ball|p1a: Drednaw
+|-damage|p1a: Drednaw|169/278
+|
+|upkeep
+|turn|9
+|
+|-terastallize|p1a: Drednaw|Ground
+|move|p2a: Misdreavus|Shadow Ball|p1a: Drednaw
+|-damage|p1a: Drednaw|60/278
+|move|p1a: Drednaw|Earthquake|p2a: Misdreavus
+|-immune|p2a: Misdreavus|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Misdreavus|Shadow Ball|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|upkeep
+|
+|switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+|turn|11
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L75, M|100/100
+|turn|12
+|
+|move|p1a: Jumpluff|Sleep Powder|p2a: Urshifu|[miss]
+|-miss|p1a: Jumpluff|p2a: Urshifu
+|move|p2a: Urshifu|Close Combat|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|164/271
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|2/100
+|move|p2a: Urshifu|Close Combat|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|57/271
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|switch|p2a: Hydrapple|Hydrapple, L83, M|100/100
+|turn|15
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|52/100
+|move|p2a: Hydrapple|Leaf Storm|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|3/271
+|-unboost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Jumpluff|Acrobatics|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|8/100
+|move|p2a: Hydrapple|Leaf Storm|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|-unboost|p2a: Hydrapple|spa|2
+|faint|p1a: Jumpluff
+|
+|upkeep
+|
+|switch|p1a: Greninja|Greninja, L80, M|246/246
+|turn|17
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|222/246|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Sneasler|Sneasler, L74, M|100/100
+|turn|18
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|53/100
+|-damage|p1a: Greninja|198/246|[from] item: Life Orb
+|move|p2a: Sneasler|Gunk Shot|p1a: Greninja|[miss]
+|-miss|p2a: Sneasler|p1a: Greninja
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Sneasler|[miss]
+|-miss|p1a: Greninja|p2a: Sneasler
+|move|p2a: Sneasler|Gunk Shot|p1a: Greninja
+|-damage|p1a: Greninja|29/246
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Greninja|Gunk Shot|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|7/100
+|-damage|p1a: Greninja|5/246|[from] item: Life Orb
+|move|p2a: Sneasler|Gunk Shot|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|

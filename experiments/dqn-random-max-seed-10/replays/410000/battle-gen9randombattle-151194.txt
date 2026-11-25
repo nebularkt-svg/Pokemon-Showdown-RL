@@ -1,0 +1,246 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tyranitar|Tyranitar, L78, F|284/284
+|switch|p2a: Crabominable|Crabominable, L90, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Crabominable
+|-resisted|p2a: Crabominable
+|-damage|p2a: Crabominable|92/100
+|move|p2a: Crabominable|Gunk Shot|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|198/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crabominable|86/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Crabominable
+|-resisted|p2a: Crabominable
+|-damage|p2a: Crabominable|75/100
+|move|p2a: Crabominable|Gunk Shot|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|107/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crabominable|69/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Ice Beam|p2a: Crabominable
+|-resisted|p2a: Crabominable
+|-damage|p2a: Crabominable|59/100
+|move|p2a: Crabominable|Gunk Shot|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|23/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crabominable|53/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|-terastallize|p1a: Tyranitar|Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Crabominable
+|-damage|p2a: Crabominable|3/100
+|move|p2a: Crabominable|Gunk Shot|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crabominable|0 fnt|[from] Sandstorm
+|faint|p2a: Crabominable
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|switch|p2a: Mudsdale|Mudsdale, L83, F|100/100
+|turn|5
+|
+|move|p1a: Keldeo|Surf|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|31/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Stone Edge|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|227/273
+|
+|-weather|none
+|-heal|p1a: Keldeo|244/273|[from] item: Leftovers
+|-heal|p2a: Mudsdale|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Keldeo|Surf|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|-heal|p1a: Keldeo|261/273|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hariyama|Hariyama, L87, F|100/100
+|turn|7
+|
+|move|p1a: Keldeo|Surf|p2a: Hariyama
+|-damage|p2a: Hariyama|75/100
+|move|p2a: Hariyama|Close Combat|p1a: Keldeo
+|-damage|p1a: Keldeo|93/273
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|
+|-heal|p1a: Keldeo|110/273|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Keldeo|Surf|p2a: Hariyama
+|-damage|p2a: Hariyama|44/100
+|move|p2a: Hariyama|Close Combat|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Diancie|Diancie, L82|216/216
+|turn|9
+|
+|move|p2a: Hariyama|Close Combat|p1a: Diancie
+|-damage|p1a: Diancie|105/216
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|move|p1a: Diancie|Earth Power|p2a: Hariyama
+|-damage|p2a: Hariyama|9/100
+|
+|-heal|p1a: Diancie|118/216|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hariyama|Close Combat|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|faint|p1a: Diancie
+|
+|upkeep
+|
+|switch|p1a: Misdreavus|Misdreavus, L90, F|254/254
+|turn|11
+|
+|move|p1a: Misdreavus|Shadow Ball|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, L79, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|move|p1a: Misdreavus|Shadow Ball|p2a: Rillaboom
+|-damage|p2a: Rillaboom|58/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Misdreavus
+|-damage|p1a: Misdreavus|34/254
+|-damage|p2a: Rillaboom|33/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|39/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|move|p1a: Misdreavus|Shadow Ball|p2a: Rillaboom
+|-damage|p2a: Rillaboom|2/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|-damage|p2a: Rillaboom|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p1a: Ursaring|Ursaring, L84, M|288/288
+|switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+|turn|14
+|
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Ursaring
+|-damage|p1a: Ursaring|171/288
+|-damage|p2a: Porygon-Z|91/100|[from] item: Life Orb
+|move|p1a: Ursaring|Close Combat|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|faint|p2a: Porygon-Z
+|
+|-heal|p1a: Ursaring|189/288|[from] Grassy Terrain
+|-status|p1a: Ursaring|tox|[from] item: Toxic Orb
+|upkeep
+|
+|switch|p2a: Slowking|Slowking-Galar, L85, F|100/100
+|turn|15
+|
+|move|p1a: Ursaring|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|91/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|move|p2a: Slowking|Future Sight|p1a: Ursaring
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Ursaring|207/288 tox|[from] Grassy Terrain
+|-heal|p2a: Slowking|97/100|[from] Grassy Terrain
+|-damage|p1a: Ursaring|189/288 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Ursaring|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|87/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|-heal|p1a: Ursaring|207/288 tox|[from] Grassy Terrain
+|-heal|p2a: Slowking|93/100|[from] Grassy Terrain
+|-damage|p1a: Ursaring|171/288 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|move|p1a: Ursaring|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|83/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|-end|p1a: Ursaring|move: Future Sight
+|-damage|p1a: Ursaring|0 fnt
+|faint|p1a: Ursaring
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, L84, M|277/277
+|turn|18
+|
+|move|p1a: Toxicroak|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|

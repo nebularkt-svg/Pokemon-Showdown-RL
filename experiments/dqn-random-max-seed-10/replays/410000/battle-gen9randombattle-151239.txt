@@ -1,0 +1,295 @@
+|title|t1_171446 vs. t2_171446
+|gametype|singles
+|player|p1|t1_171446|1|
+|player|p2|t2_171446|266|
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth, L78|253/253
+|switch|p2a: Milotic|Milotic, L83, F|100/100
+|turn|1
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|62/100
+|move|p2a: Milotic|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|223/253
+|
+|-heal|p2a: Milotic|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Iron Moth|Fire Blast|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|51/100
+|move|p2a: Milotic|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|196/253
+|
+|-heal|p2a: Milotic|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Iron Moth|Fire Blast|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|39/100
+|move|p2a: Milotic|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|164/253
+|
+|-heal|p2a: Milotic|45/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|5/100
+|move|p2a: Milotic|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|137/253
+|
+|-heal|p2a: Milotic|11/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Leavanny|Leavanny, L86, F|269/269
+|move|p2a: Milotic|Ice Beam|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|135/269
+|
+|-heal|p2a: Milotic|17/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Leavanny|Leaf Blade|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Dondozo|Dondozo, L78, M|100/100
+|turn|7
+|
+|move|p1a: Leavanny|Leaf Blade|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|52/100
+|move|p2a: Dondozo|Wave Crash|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|77/269
+|-damage|p2a: Dondozo|47/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Leavanny|Leaf Blade|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|switch|p2a: Glalie|Glalie, L96, M|100/100
+|turn|9
+|
+|move|p2a: Glalie|Earthquake|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|58/269
+|move|p1a: Leavanny|Leaf Blade|p2a: Glalie
+|-damage|p2a: Glalie|70/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Glalie|Earthquake|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|37/269
+|move|p1a: Leavanny|Leaf Blade|p2a: Glalie
+|-damage|p2a: Glalie|37/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Glalie|Earthquake|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|17/269
+|move|p1a: Leavanny|Knock Off|p2a: Glalie
+|-damage|p2a: Glalie|13/100
+|-enditem|p2a: Glalie|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Leavanny
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Glalie|Earthquake|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+|
+|switch|p1a: Cacturne|Cacturne, L92, F|278/278
+|turn|13
+|
+|move|p2a: Glalie|Earthquake|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|229/278
+|move|p1a: Cacturne|Leaf Storm|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|-unboost|p1a: Cacturne|spa|2
+|faint|p2a: Glalie
+|-damage|p1a: Cacturne|202/278|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, L83, M|100/100
+|turn|14
+|
+|-terastallize|p1a: Cacturne|Dark
+|move|p2a: Passimian|Close Combat|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Cacturne
+|
+|upkeep
+|
+|switch|p1a: Komala|Komala, L89, M|260/260
+|-ability|p1a: Komala|Comatose
+|turn|15
+|
+|move|p1a: Komala|Double-Edge|p2a: Passimian
+|-damage|p2a: Passimian|15/100
+|-damage|p1a: Komala|175/260|[from] Recoil
+|move|p2a: Passimian|Close Combat|p1a: Komala
+|-supereffective|p1a: Komala
+|-damage|p1a: Komala|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Komala
+|
+|upkeep
+|
+|switch|p1a: Whiscash|Whiscash, L88, F|337/337
+|turn|16
+|
+|move|p2a: Passimian|Close Combat|p1a: Whiscash
+|-damage|p1a: Whiscash|109/337
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Whiscash|Earthquake|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|-damage|p1a: Whiscash|76/337|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p2a: Lycanroc|Lycanroc-Midnight, L89, F|100/100
+|turn|17
+|
+|move|p2a: Lycanroc|Close Combat|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|faint|p1a: Whiscash
+|-damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|switch|p1a: Iron Moth|Iron Moth, L78|137/253
+|turn|18
+|
+|move|p1a: Iron Moth|Fire Blast|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|56/100
+|move|p2a: Lycanroc|Close Combat|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|34/253
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|-damage|p2a: Lycanroc|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|100/100
+|turn|20
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|83/100
+|move|p2a: Thundurus|Focus Blast|p1a: Iron Moth|[miss]
+|-miss|p2a: Thundurus|p1a: Iron Moth
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Iron Moth|Fire Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|22/100
+|move|p2a: Thundurus|Focus Blast|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|switch|p1a: Dudunsparce|Dudunsparce, L83, M|343/343
+|turn|22
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Dudunsparce|[miss]
+|-miss|p2a: Thundurus|p1a: Dudunsparce
+|move|p1a: Dudunsparce|Earthquake|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Dudunsparce|[miss]
+|-miss|p2a: Thundurus|p1a: Dudunsparce
+|move|p1a: Dudunsparce|Earthquake|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Dudunsparce|[miss]
+|-miss|p2a: Thundurus|p1a: Dudunsparce
+|move|p1a: Dudunsparce|Earthquake|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Dudunsparce
+|-supereffective|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|115/343
+|move|p1a: Dudunsparce|Earthquake|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|-heal|p1a: Dudunsparce|136/343|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Thundurus|Focus Blast|p1a: Dudunsparce
+|-supereffective|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|0 fnt
+|faint|p1a: Dudunsparce
+|
