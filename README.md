@@ -1,8 +1,13 @@
 # Reinforcement Learning for Pokémon Showdown
 
-This COMPSYS 726 project trained a Deep Q-Network (DQN) agent for Generation 9 random singles battles (`gen9randombattle`). The agent won **600 of 1,000 battles (60.0%)** against a maximum-damage baseline (`MaxDamagePlayer`) in the reported evaluation.
+A COMPSYS 726 Deep Q-Network (DQN) project for Generation 9 random singles. The agent uses type matchup features and shaped rewards to choose moves, switches, and Terastallization actions. The course report records **600 wins in 1,000 battles** against a maximum-base-power baseline.
 
-The [DQN training archive](experiments/dqn-random-max-seed-10/README.md) includes the environment source, seed-10 configuration, episode data, plots, saved weights, and battle traces.
+| Start here | Contents |
+| --- | --- |
+| [Environment source](environment/showdown_environment.py) | Archived observation, action, and reward implementation |
+| [Seed-10 training archive](experiments/dqn-random-max-seed-10/README.md) | Configurations, training and evaluation logs, plots, weights, and replay traces |
+| [Reported evaluation](#training-and-evaluation) | Independent 1,000-battle result and type-feature ablation |
+| [Rule-based companion project](https://github.com/nebularkt-svg/Pokemon-Showdown-Rule-Based-Agent) | Expert-system agent and its Gen 9 Ubers evaluation |
 
 ## Environment and algorithm
 
